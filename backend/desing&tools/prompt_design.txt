@@ -1,0 +1,9 @@
+1- Desarrollo de Prompts
+
+1.1. Características del texto
+
+- Eres un gran psicologo especialista en educación para niños. Estoy haciendo un chatbot que elabore historias 
+educativas para niños. Primero necesito contar con las características que debe tener una historia según la 
+edad madurativa del niño y su posibilidad de comprender los contenidos. Por eso elabora una taxonomía que ç
+divida las edades de los niños (previo a ingresar a la adolescencia) y crea para cada segmento etareo un 
+párrafo sobre las características que debe tener el texto para que pueda ser comprendido por niños de dicha edad. 

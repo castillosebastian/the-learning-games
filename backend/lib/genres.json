@@ -1,0 +1,100 @@
+{
+    "story_types": [
+        {
+            "type": "adventure",
+            "characterization": "Stories that involve exciting and often risky experiences, where characters embark on missions or quests, facing challenges and overcoming obstacles."
+        },
+        {
+            "type": "discovery",
+            "characterization": "Narratives focused on uncovering new knowledge or secrets, whether it's through scientific exploration, historical research, or finding hidden treasures."
+        },
+        {
+            "type": "travel",
+            "characterization": "Tales that revolve around journeys to new and exotic locations, encountering different cultures, and experiencing the wonders of the world."
+        },
+        {
+            "type": "novel",
+            "characterization": "Traditional storytelling with complex characters and plotlines, where the focus is on character development and the unfolding of a central theme or conflict."
+        },
+        {
+            "type": "mystery",
+            "characterization": "Plots centered around solving a puzzle or a crime, where the characters must uncover clues and piece together information to reach a conclusion."
+        },
+        {
+            "type": "fantasy",
+            "characterization": "Stories set in imaginary worlds with magical elements, mythical creatures, and epic quests, often involving the battle between good and evil."
+        },
+        {
+            "type": "science fiction",
+            "characterization": "Narratives set in futuristic or alternate realities, exploring advanced technology, space exploration, and the impact of science on society."
+        },
+        {
+            "type": "historical fiction",
+            "characterization": "Tales set in a specific historical period, blending factual events and characters with fictional elements to bring history to life."
+        },
+        {
+            "type": "horror",
+            "characterization": "Stories designed to evoke fear and suspense, often involving supernatural elements, eerie settings, and encounters with the unknown."
+        },
+        {
+            "type": "romance",
+            "characterization": "Plots focused on romantic relationships, highlighting the emotional journey of the characters as they navigate love, conflicts, and personal growth."
+        },
+        {
+            "type": "coming of age",
+            "characterization": "Narratives that follow the protagonist's growth and development, often from childhood to adulthood, dealing with personal challenges and self-discovery."
+        },
+        {
+            "type": "thriller",
+            "characterization": "Fast-paced stories that keep readers on the edge of their seats, often involving danger, high stakes, and intense suspense."
+        },
+        {
+            "type": "comedy",
+            "characterization": "Light-hearted and humorous tales designed to entertain and amuse, often featuring witty dialogue and comical situations."
+        },
+        {
+            "type": "dystopian",
+            "characterization": "Stories set in a bleak, oppressive future where characters must navigate a society marked by dehumanization, environmental disaster, or totalitarian rule."
+        },
+        {
+            "type": "mythology",
+            "characterization": "Narratives based on ancient myths and legends, featuring gods, heroes, and mythical creatures, exploring timeless themes and moral lessons."
+        },
+        {
+            "type": "biography",
+            "characterization": "True stories based on the lives of real people, highlighting their achievements, struggles, and contributions to society."
+        },
+        {
+            "type": "folktale",
+            "characterization": "Traditional stories passed down through generations, often featuring moral lessons, cultural values, and fantastical elements."
+        },
+        {
+            "type": "supernatural",
+            "characterization": "Tales that incorporate elements beyond the natural world, such as ghosts, spirits, and otherworldly phenomena."
+        },
+        {
+            "type": "urban fantasy",
+            "characterization": "Fantasy stories set in a modern, urban environment, blending magical elements with contemporary settings and issues."
+        },
+        {
+            "type": "espionage",
+            "characterization": "Stories centered around spies, secret agents, and covert operations, often involving political intrigue and high-stakes missions."
+        },
+        {
+            "type": "post-apocalyptic",
+            "characterization": "Narratives set in a world after a catastrophic event, where characters struggle to survive and rebuild in a devastated landscape."
+        },
+        {
+            "type": "psychological drama",
+            "characterization": "Stories that delve into the complexities of the human mind, exploring themes of mental health, inner conflict, and emotional turmoil."
+        },
+        {
+            "type": "sports",
+            "characterization": "Tales centered around athletic competition, teamwork, and the personal growth of athletes, often highlighting the dedication and challenges of sports."
+        },
+        {
+            "type": "legal drama",
+            "characterization": "Stories that revolve around legal cases, courtroom battles, and the pursuit of justice, often featuring lawyers, judges, and complex legal dilemmas."
+        }
+    ]
+}

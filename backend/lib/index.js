@@ -45,6 +45,7 @@ const firebase_1 = require("@genkit-ai/firebase");
 const googleai_2 = require("@genkit-ai/googleai");
 const flow_1 = require("@genkit-ai/flow");
 const dotprompt_1 = require("@genkit-ai/dotprompt");
+const genres_json_1 = require("./genres.json");
 (0, core_1.configureGenkit)({
     plugins: [
         (0, dotprompt_1.dotprompt)(),
@@ -58,17 +59,24 @@ const dotprompt_1 = require("@genkit-ai/dotprompt");
 });
 const supportedLanguages = z.enum(["spanish", "english", "portuguese"]);
 const supportedAudiences = z.enum(["kids", "teenagers", "adults"]);
+const supportedGenres = z.enum(['adventure', 'discovery', 'travel', 'novel', 'mystery', 'fantasy', 'science fiction', 'historical fiction', 'horror', 'romance', 'coming of age', 'thriller', 'comedy', 'dystopian', 'mythology', 'biography', 'folktale', 'supernatural', 'urban fantasy', 'espionage', 'post-apocalyptic', 'psychological drama', 'sports', 'legal drama']);
+console.log(supportedGenres);
 exports.startStoryBookPrompt = (0, ai_1.definePrompt)({
     name: 'startStoryBookPrompt',
     inputSchema: z.object({
         audience: z.enum(["kids", "teenagers", "adults"]),
         numChapters: z.number(),
         topic: z.string(),
-        language: supportedLanguages
+        language: supportedLanguages,
+        genre: supportedGenres,
     }),
-}, async (input) => {
+}, 
+// here 
+async (input) => {
+    var _a;
     const systemPrompt = `You are a learning tool for ${input.audience} as audience, generate storybooks for learning purpose about the given topic in markdown format and in language: ${input.language} using language expressions appropate for the audience`;
-    const userPrompt = `Write an index page for a storybook with ${input.numChapters} chapters about: ${input.topic}.`;
+    const userPrompt = `Write an index page for a storybook with genre: ${input.genre}, with ${input.numChapters} chapters about: ${input.topic}.
+        Take into account that the genre has the following characteristics: ${(_a = genres_json_1.story_types.find(st => st.type == input.genre)) === null || _a === void 0 ? void 0 : _a.characterization}`;
     return {
         messages: [{
                 role: 'system', content: [
@@ -121,6 +129,7 @@ exports.storyBookFlow = (0, flow_1.defineFlow)({
         numChapters: z.number(),
         topic: z.string(),
         language: supportedLanguages,
+        genre: supportedGenres,
     }),
     outputSchema: z.object({
         topic: z.string(),
@@ -129,10 +138,10 @@ exports.storyBookFlow = (0, flow_1.defineFlow)({
         audience: supportedAudiences,
         language: supportedLanguages,
     })
-}, async ({ numChapters, audience, topic, language }) => {
+}, async ({ numChapters, audience, topic, language, genre }) => {
     const startingPrompt = await (0, ai_1.renderPrompt)({
         prompt: exports.startStoryBookPrompt,
-        input: { numChapters, topic, audience, language },
+        input: { numChapters, topic, audience, language, genre },
         model: googleai_1.gemini15Flash
     });
     let result = await (0, ai_1.generate)(startingPrompt);

@@ -1,0 +1,85 @@
+{
+    "interactive_elements": [
+      {
+        "type": "riddle",
+        "characterization": "A puzzle or question that requires careful thought to answer, often posed as a metaphorical or playful challenge.",
+        "example": "I speak without a mouth and hear without ears. I have no body, but I come alive with the wind. What am I?"
+      },
+      {
+        "type": "multiple_choice_question",
+        "characterization": "A question followed by several possible answers, from which the user must choose the correct one.",
+        "example": "What is the capital of France? a) London b) Berlin c) Paris d) Madrid"
+      },
+      {
+        "type": "true_false_question",
+        "characterization": "A statement that the user must judge as true or false.",
+        "example": "The Earth revolves around the Sun. True or False?"
+      },
+      {
+        "type": "matching_game",
+        "characterization": "A game where the user must pair related items from two lists.",
+        "example": "Match the country with its capital: 1) Italy - a) Rome 2) Japan - b) Tokyo 3) Brazil - c) Brasília"
+      },
+      {
+        "type": "short_answer_question",
+        "characterization": "A question that requires a brief written response from the user.",
+        "example": "What process do plants use to convert sunlight into energy?"
+      },
+      {
+        "type": "fill_in_the_blank",
+        "characterization": "A sentence with missing words that the user must complete correctly.",
+        "example": "The process by which plants make food is called _________."
+      },
+      {
+        "type": "logic_puzzle",
+        "characterization": "A puzzle that requires logical reasoning to solve.",
+        "example": "You have three boxes: one containing only apples, one containing only oranges, and one containing both apples and oranges. All boxes are mislabeled. You may pick one fruit from one box to correctly label all the boxes. Which box do you pick from?"
+      },
+      {
+        "type": "crossword",
+        "characterization": "A word puzzle in which the user fills in words based on given clues, with the words crossing each other in a grid.",
+        "example": "Find words related to space exploration. Clue: The force that keeps planets in orbit around the Sun (6 letters)."
+      },
+      {
+        "type": "word_search",
+        "characterization": "A puzzle where the user must find and circle words hidden in a grid of letters.",
+        "example": "Find the hidden words related to the solar system in this grid."
+      },
+      {
+        "type": "picture_puzzle",
+        "characterization": "A visual puzzle where the user must identify differences between two similar images or complete an image.",
+        "example": "Spot the differences between these two images of a historical scene."
+      },
+      {
+        "type": "sequence_puzzle",
+        "characterization": "A puzzle where the user must arrange items in a logical or chronological order.",
+        "example": "Arrange the following historical events in chronological order: a) The discovery of America b) The fall of the Roman Empire c) The signing of the Declaration of Independence"
+      },
+      {
+        "type": "trivia_question",
+        "characterization": "A question that tests the user's knowledge on a specific topic.",
+        "example": "Who wrote 'To Kill a Mockingbird'? a) Harper Lee b) Mark Twain c) J.K. Rowling d) Ernest Hemingway"
+      },
+      {
+        "type": "math_problem",
+        "characterization": "A mathematical question or problem that the user must solve.",
+        "example": "If a train travels at 60 miles per hour for 3 hours, how far does it travel?"
+      },
+      {
+        "type": "word_scramble",
+        "characterization": "A puzzle where the user must unscramble letters to form a word.",
+        "example": "Unscramble the letters to form a word related to the ocean: LMAAISAR"
+      },
+      {
+        "type": "maze",
+        "characterization": "A puzzle where the user must find the correct path through a maze.",
+        "example": "Help the character find their way through the maze to the treasure."
+      },
+      {
+        "type": "scenario_decision",
+        "characterization": "A scenario where the user must make a decision that affects the outcome of the story.",
+        "example": "You find a mysterious key. Do you: a) Keep it for yourself b) Try to find its owner c) Leave it where you found it"
+      }
+    ]
+ }
+  

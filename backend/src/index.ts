@@ -6,6 +6,7 @@ import { firebase } from "@genkit-ai/firebase";
 import { googleAI } from "@genkit-ai/googleai";
 import { defineFlow, startFlowsServer } from "@genkit-ai/flow";
 import { dotprompt } from '@genkit-ai/dotprompt';
+import { story_types } from './genres.json' 
 
 configureGenkit({
     plugins: [
@@ -22,18 +23,23 @@ configureGenkit({
 });
 const supportedLanguages = z.enum(["spanish", "english", "portuguese"]);
 const supportedAudiences = z.enum(["kids", "teenagers", "adults"]);
+const supportedGenres = z.enum([ 'adventure', 'discovery', 'travel','novel', 'mystery',          'fantasy', 'science fiction',  'historical fiction', 'horror',           'romance', 'coming of age',    'thriller', 'comedy',           'dystopian', 'mythology',        'biography', 'folktale',         'supernatural', 'urban fantasy',    'espionage', 'post-apocalyptic', 'psychological drama', 'sports',           'legal drama' ]);
+console.log(supportedGenres);
 export const startStoryBookPrompt = definePrompt({
     name: 'startStoryBookPrompt',
     inputSchema: z.object({
         audience: z.enum(["kids", "teenagers", "adults"]),
         numChapters: z.number(),
         topic: z.string(),
-        language: supportedLanguages
+        language: supportedLanguages,
+        genre: supportedGenres,         
     }),
 },
+    // here 
     async (input) => {
         const systemPrompt = `You are a learning tool for ${input.audience} as audience, generate storybooks for learning purpose about the given topic in markdown format and in language: ${input.language} using language expressions appropate for the audience`;
-        const userPrompt = `Write an index page for a storybook with ${input.numChapters} chapters about: ${input.topic}.`;
+        const userPrompt = `Write an index page for a storybook with genre: ${input.genre}, with ${input.numChapters} chapters about: ${input.topic}.
+        Take into account that the genre has the following characteristics: ${story_types.find(st=>st.type== input.genre)?.characterization}`;
 
         return {
             messages: [{
@@ -90,6 +96,7 @@ export const storyBookFlow = defineFlow(
             numChapters: z.number(),
             topic: z.string(),
             language: supportedLanguages,
+            genre: supportedGenres,
         }),
         outputSchema: z.object({
             topic: z.string(),
@@ -99,10 +106,10 @@ export const storyBookFlow = defineFlow(
             language: supportedLanguages,
         })
     },
-    async ({ numChapters, audience, topic, language }) => {
+    async ({ numChapters, audience, topic, language, genre }) => {
         const startingPrompt = await renderPrompt({
             prompt: startStoryBookPrompt,
-            input: { numChapters, topic, audience, language },
+            input: { numChapters, topic, audience, language, genre },
             model: gemini15Flash
         });
 
