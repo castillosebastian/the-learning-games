@@ -1,0 +1,146 @@
+[
+    {
+        "age_from": 0,
+        "age_to": 2,
+        "characteristics": [
+            "Simplicity: The stories should have short and simple sentences.",
+            "Repetition: Frequent use of repetition to reinforce understanding.",
+            "Visuals: Accompany the text with colorful and engaging images.",
+            "Sounds: Incorporate onomatopoeic sounds (like 'woof woof' for a dog) to capture attention.",
+            "Rhythm: Use of rhymes and a consistent rhythm to maintain interest."
+        ],
+        "example": "The dog woof woof plays in the park. The cat meow meow sleeps in the house."
+    },
+    {
+        "age_from": 3,
+        "age_to": 5,
+        "characteristics": [
+            "Simple stories: Narratives with clear beginning, middle, and end.",
+            "Familiar characters: Use animals or characters known to children.",
+            "Basic lessons: Include simple concepts like colors, numbers, and shapes.",
+            "Emotions: Introduce basic emotions for children to start identifying them.",
+            "Interaction: Simple questions for children to answer and participate."
+        ],
+        "example": "Luna, the white kitten, found a red ball in the garden. What color is the ball?"
+    },
+    {
+        "age_from": 6,
+        "age_to": 8,
+        "characteristics": [
+            "More complex stories: Plots with more details and simple twists.",
+            "Problem-solving: Stories that include simple problems and their resolution.",
+            "Morals: Include basic moral lessons.",
+            "Human characters: Start including human characters children can relate to.",
+            "Descriptions: More details in the descriptions of settings and characters."
+        ],
+        "example": "Juan found a lost puppy in the park. He decided to look for its owner. He asked all his neighbors and, finally, the puppy went back home. Juan felt happy for helping."
+    },
+    {
+        "age_from": 9,
+        "age_to": 11,
+        "characteristics": [
+            "More elaborate plots: Stories with subplots and more complex conflicts.",
+            "Developed characters: Characters with more depth and distinctive traits.",
+            "Varied themes: Introduction to more varied themes such as friendship, bravery, and responsibility.",
+            "Descriptive narrative: Detailed descriptions of settings and actions.",
+            "Reflection: Stories that invite reflection and consideration of different viewpoints."
+        ],
+        "example": "María and her friends decided to organize a campaign to collect toys for children in need. Along the way, they faced challenges but learned about the importance of generosity and teamwork."
+    },
+    {
+        "age_from": 12,
+        "age_to": 14,
+        "characteristics": [
+            "Complex themes: Introduction to more abstract themes such as justice, ethics, and identity.",
+            "Internal conflicts: Stories that explore the internal conflicts of characters.",
+            "Elaborate plots: Narratives with multiple subplots and complex characters.",
+            "Critical reflection: Texts that invite critical reflection and debate.",
+            "Varied contexts: Introduction to different cultural and temporal contexts."
+        ],
+        "example": "Carlos had always believed that honesty was the best policy. But when he found a wallet full of money, he faced a moral dilemma: should he keep the money to help his family, or return it to its rightful owner?"
+    },
+    {
+        "age_from": 15,
+        "age_to": 17,
+        "characteristics": [
+            "Complex narratives: Stories with multiple layers and intricate plots.",
+            "Identity exploration: Themes related to personal identity and self-discovery.",
+            "Social issues: Addressing contemporary social issues relevant to teenagers.",
+            "Emotional depth: Characters with complex emotions and relationships.",
+            "Engagement: Interactive elements such as questions for reflection."
+        ],
+        "example": "Sarah struggled with her sense of identity as she navigated high school. Through her involvement in a community project, she discovered her passion for helping others and found a new sense of purpose."
+    },
+    {
+        "age_from": 18,
+        "age_to": 24,
+        "characteristics": [
+            "Real-world scenarios: Stories that reflect real-life challenges and experiences.",
+            "Personal growth: Themes of personal and professional growth.",
+            "Diverse perspectives: Introduction to diverse cultural and social perspectives.",
+            "Critical thinking: Encouraging critical analysis and problem-solving.",
+            "Relatability: Characters and situations that young adults can relate to."
+        ],
+        "example": "Mike moved to a new city for college and faced the challenges of living independently. Through new friendships and experiences, he learned valuable life lessons about resilience and adaptability."
+    },
+    {
+        "age_from": 25,
+        "age_to": 34,
+        "characteristics": [
+            "Career focus: Stories centered around career development and professional challenges.",
+            "Life transitions: Themes related to major life changes such as starting a family or buying a home.",
+            "Work-life balance: Addressing the challenges of balancing personal and professional life.",
+            "Personal fulfillment: Exploring what it means to live a fulfilling life.",
+            "Complex characters: Well-developed characters with intricate backgrounds and motivations."
+        ],
+        "example": "Emily was navigating her career in a fast-paced corporate environment. As she faced difficult decisions, she learned the importance of work-life balance and the pursuit of personal happiness."
+    },
+    {
+        "age_from": 35,
+        "age_to": 44,
+        "characteristics": [
+            "Mature themes: Stories addressing mature themes such as career advancement, parenting, and relationships.",
+            "Self-reflection: Encouraging introspection and self-improvement.",
+            "Challenges of adulthood: Realistic portrayals of the challenges faced by adults in this age group.",
+            "Diverse experiences: Inclusion of diverse life experiences and perspectives.",
+            "Inspiration: Stories that inspire and motivate personal and professional growth."
+        ],
+        "example": "David was at a crossroads in his career, contemplating a major change. Through reflection and support from his family, he found the courage to pursue his true passion."
+    },
+    {
+        "age_from": 45,
+        "age_to": 54,
+        "characteristics": [
+            "Life wisdom: Stories that incorporate life lessons and wisdom gained from experience.",
+            "Family dynamics: Themes related to family relationships and dynamics.",
+            "Career peak: Exploring the complexities of being at the peak of one's career.",
+            "Legacy: Considerations of one's legacy and impact on others.",
+            "Introspection: Deep introspection about life choices and future aspirations."
+        ],
+        "example": "Karen, having reached a high point in her career, began to mentor younger colleagues, finding fulfillment in passing on her knowledge and shaping the next generation."
+    },
+    {
+        "age_from": 55,
+        "age_to": 64,
+        "characteristics": [
+            "Retirement: Themes related to preparing for and transitioning into retirement.",
+            "Health and wellness: Addressing health and wellness in later adulthood.",
+            "Legacy and reflection: Reflecting on one's life achievements and contributions.",
+            "Relationships: Exploring long-term relationships and friendships.",
+            "New beginnings: Stories that highlight new opportunities and adventures in later life."
+        ],
+        "example": "John embraced his retirement by pursuing his lifelong dream of traveling the world. Along the way, he discovered new cultures and made lasting memories."
+    },
+    {
+        "age_from": 65,
+        "age_to": null,
+        "characteristics": [
+            "Life stories: Narratives that celebrate a lifetime of experiences and achievements.",
+            "Intergenerational relationships: Emphasizing the importance of relationships with younger generations.",
+            "Wisdom sharing: Passing on knowledge and life lessons to others.",
+            "Continued growth: Highlighting opportunities for continued personal growth and learning.",
+            "Community involvement: Stories that encourage active participation in the community."
+        ],
+        "example": "Margaret, a retired teacher, volunteered at a local school, sharing her vast knowledge and experiences with the students, and found joy in giving back to her community."
+    }
+]

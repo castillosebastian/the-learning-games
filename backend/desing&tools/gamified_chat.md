@@ -224,3 +224,6 @@ The chatbot creates engaging, educational stories using Wikipedia as its primary
 #### **Final Note:**
 
 This system ensures the chatbot is both educational and entertaining, leveraging game mechanics to engage children and teenagers effectively. By integrating these elements, the chatbot stands out from other educational resources, providing a balanced and enjoyable learning experience.The teacher mode adds an extra layer of functionality, making it a valuable tool for educators to track and enhance student learning.
+
+
+# Avatars 

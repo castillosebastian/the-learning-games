@@ -35,6 +35,10 @@ var __asyncGenerator = (this && this.__asyncGenerator) || function (thisArg, _ar
     function reject(value) { resume("throw", value); }
     function settle(f, v) { if (f(v), q.shift(), q.length) resume(q[0][0], q[0][1]); }
 };
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+var _a;
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.generateChapterBookFlow = exports.storyBookFlow = exports.generateChapterPrompt = exports.startStoryBookPrompt = void 0;
 const ai_1 = require("@genkit-ai/ai");
@@ -46,6 +50,8 @@ const googleai_2 = require("@genkit-ai/googleai");
 const flow_1 = require("@genkit-ai/flow");
 const dotprompt_1 = require("@genkit-ai/dotprompt");
 const genres_json_1 = require("./genres.json");
+const content_atributes_by_age_json_1 = __importDefault(require("./content_atributes_by_age.json")); // Import JSON file
+const interaction_hook_json_1 = __importDefault(require("./interaction_hook.json")); // Import interaction hook JSON
 (0, core_1.configureGenkit)({
     plugins: [
         (0, dotprompt_1.dotprompt)(),
@@ -61,6 +67,16 @@ const supportedLanguages = z.enum(["spanish", "english", "portuguese"]);
 const supportedAudiences = z.enum(["kids", "teenagers", "adults"]);
 const supportedGenres = z.enum(['adventure', 'discovery', 'travel', 'novel', 'mystery', 'fantasy', 'science fiction', 'historical fiction', 'horror', 'romance', 'coming of age', 'thriller', 'comedy', 'dystopian', 'mythology', 'biography', 'folktale', 'supernatural', 'urban fantasy', 'espionage', 'post-apocalyptic', 'psychological drama', 'sports', 'legal drama']);
 console.log(supportedGenres);
+const age = 10; // Define the fixed age variable
+// Filter characteristics based on age
+const filteredAttributes = ((_a = content_atributes_by_age_json_1.default.find(attr => {
+    return age >= attr.age_from && (attr.age_to === null || age <= attr.age_to);
+})) === null || _a === void 0 ? void 0 : _a.characteristics) || [];
+// Define variables
+const user_name = "John";
+const educational_content = `
+Quantum mechanics is a fundamental theory in physics that describes nature at the smallest scales of energy levels of atoms and subatomic particles. It explains phenomena that classical mechanics cannot, such as the dual particle-wave nature of light and matter, and the behavior of particles at the quantum level. Understanding quantum mechanics is crucial for advancements in fields like quantum computing, cryptography, and various technological innovations.
+`;
 exports.startStoryBookPrompt = (0, ai_1.definePrompt)({
     name: 'startStoryBookPrompt',
     inputSchema: z.object({
@@ -74,9 +90,18 @@ exports.startStoryBookPrompt = (0, ai_1.definePrompt)({
 // here 
 async (input) => {
     var _a;
-    const systemPrompt = `You are a learning tool for ${input.audience} as audience, generate storybooks for learning purpose about the given topic in markdown format and in language: ${input.language} using language expressions appropate for the audience`;
-    const userPrompt = `Write an index page for a storybook with genre: ${input.genre}, with ${input.numChapters} chapters about: ${input.topic}.
-        Take into account that the genre has the following characteristics: ${(_a = genres_json_1.story_types.find(st => st.type == input.genre)) === null || _a === void 0 ? void 0 : _a.characterization}`;
+    const systemPrompt = `
+        You are a learning tool for an audience of ${input.audience}. Your task is to generate a storybook for educational purposes that combines the logic of a game with the richness of education.    
+        The game aspect is provided by the interactive content at the end of each chapter. The educational aspect is delivered through the narrative of the book, which harmoniously integrates educational content into a brilliantly written story.    
+        This story should always include the user as the main character and protagonist, referred to by their name.    
+        The content should be provided in markdown format and use language expressions appropriate for the specified audience. The storybook should be an engaging, informative, gamified experience.    
+        Never use violent, harmful, or aggressive content.    
+        The language used should be clear, age-appropriate, and educational.`;
+    const userPrompt = `Write an index page for a storybook in the genre of ${input.genre}, with ${input.numChapters} chapters about ${input.topic}. 
+        Take into account that this genre has the following characteristics: ${(_a = genres_json_1.story_types.find(st => st.type === input.genre)) === null || _a === void 0 ? void 0 : _a.characterization}
+        This storybook is intended for a person who is ${age} years old, so the content should follow these guidelines: ${filteredAttributes.join(", ")}. 
+        The main character of the story is ${user_name}, who will embark on a fascinating journey of learning. 
+        Integrate the following educational content into the chapters: ${educational_content}`;
     return {
         messages: [{
                 role: 'system', content: [
@@ -106,9 +131,23 @@ exports.generateChapterPrompt = (0, ai_1.definePrompt)({
         language: supportedLanguages
     }),
 }, async (input) => {
-    const systemPrompt = `You are a learning tool for ${input.audience} as audience, generate storybooks for learning purpose about the given topic in markdown format and in language: ${input.language} using language expressions appropate for the audience.
-  here you have the index content: ${input.indexContent}`;
-    const userPrompt = `write 2 page chapter ${input.chapter}, be elaborate`;
+    // Select a random interactive element
+    const randomElement = interaction_hook_json_1.default.interactive_elements[Math.floor(Math.random() * interaction_hook_json_1.default.interactive_elements.length)];
+    const interactiveContent = `${randomElement.type}: ${randomElement.characterization}. Example: ${randomElement.example}`;
+    const systemPrompt = `
+    You are a learning tool for an audience of ${input.audience}. Your task is to generate a storybook for educational purposes that combines the logic of a game with the richness of education.    
+    The game aspect is provided by the interactive content at the end of each chapter. The educational aspect is delivered through the narrative of the book, which harmoniously integrates educational content into a brilliantly written story.    
+    This story should always include the user as the main character and protagonist, referred to by their name.    
+    The content should be provided in markdown format and use language expressions appropriate for the specified audience. The storybook should be an engaging, informative, gamified experience.    
+    Never use violent, harmful, or aggressive content.    
+    The language used should be clear, age-appropriate, and educational.    
+    Here is the index content for reference: ${input.indexContent}. Use this index content as a guide to ensure the story flows logically and covers the topics listed.
+    `;
+    const userPrompt = `
+    Write a detailed 2-page chapter ${input.chapter}. Be elaborate in your descriptions and ensure the chapter is engaging and informative.
+    The main character of the story is ${user_name}, who will embark on a fascinating journey. Integrate the following educational content into the chapter: ${educational_content}    
+    Critically important: at the end of the chapter, include the following interactive content: ${interactiveContent}. This interactive element is meant to reinforce learning and keep the reader engaged. Make sure it is seamlessly integrated into the chapter and relevant to the content discussed.
+    `;
     return {
         messages: [{
                 role: 'system', content: [

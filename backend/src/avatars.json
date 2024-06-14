@@ -1,0 +1,2686 @@
+{
+  "adventure": [
+      {
+          "name": "Max Falcon",
+          "description": {
+              "appearance": "Tall and muscular, with short brown hair and piercing blue eyes. He has a rugged, sun-tanned complexion.",
+              "attire": "Wears a leather jacket, cargo pants, and sturdy hiking boots. Often seen with a utility belt and a backpack.",
+              "likes": "Exploring uncharted territories, solving ancient mysteries, and extreme sports.",
+              "dislikes": "Bureaucracy, being confined indoors, and injustice.",
+              "behavior": "Brave, resourceful, and quick-witted. He is always ready to take on challenges and protect his friends.",
+              "weakness": "Tends to be reckless and often acts before thinking.",
+              "strength": "Unparalleled survival skills and physical strength."
+          }
+      },
+      {
+          "name": "Lara Storm",
+          "description": {
+              "appearance": "Athletic build, with long black hair and green eyes. She has a scar on her left cheek from a previous adventure.",
+              "attire": "Prefers tactical gear, including a utility vest, cargo pants, and hiking boots. Often carries a map and compass.",
+              "likes": "Ancient artifacts, rock climbing, and studying old maps.",
+              "dislikes": "Crowded cities, deceitful people, and waiting.",
+              "behavior": "Determined, analytical, and independent. She is known for her sharp mind and quick decision-making.",
+              "weakness": "Can be too focused on her goals, sometimes ignoring the risks.",
+              "strength": "Exceptional at solving puzzles and finding hidden paths."
+          }
+      },
+      {
+          "name": "Jake Rivers",
+          "description": {
+              "appearance": "Medium height with a full-figured build, curly red hair, and freckles. His green eyes are always full of curiosity.",
+              "attire": "Wears a simple t-shirt, cargo shorts, and sneakers. Always has a camera and notebook with him.",
+              "likes": "Photography, wildlife observation, and documenting his travels.",
+              "dislikes": "Boredom, routine, and dishonesty.",
+              "behavior": "Curious, friendly, and enthusiastic. He loves to learn and share his discoveries with others.",
+              "weakness": "Can get easily distracted by new things.",
+              "strength": "Great at documenting and remembering details."
+          }
+      },
+      {
+          "name": "Ava Blade",
+          "description": {
+              "appearance": "Slender and agile, with short blonde hair and blue eyes. She has a tattoo of a phoenix on her arm.",
+              "attire": "Dresses in lightweight, flexible clothing suitable for climbing and running. Wears fingerless gloves and a headband.",
+              "likes": "Parkour, ancient ruins, and treasure hunting.",
+              "dislikes": "Dishonesty, idleness, and cold weather.",
+              "behavior": "Energetic, fearless, and clever. She loves the thrill of adventure and the chase.",
+              "weakness": "Can be overconfident and take unnecessary risks.",
+              "strength": "Exceptional agility and combat skills."
+          }
+      },
+      {
+          "name": "Leo Tracker",
+          "description": {
+              "appearance": "Sturdy build, with short brown hair and a beard. He has sharp brown eyes and a serious expression.",
+              "attire": "Wears a flannel shirt, jeans, and sturdy boots. Often seen with a hunting knife and a canteen.",
+              "likes": "Tracking wildlife, survival challenges, and mountain hiking.",
+              "dislikes": "Laziness, modern technology, and noise.",
+              "behavior": "Serious, focused, and highly skilled in survival techniques. He is a natural leader.",
+              "weakness": "Can be overly serious and hard to relax.",
+              "strength": "Expert in tracking and wilderness survival."
+          }
+      },
+      {
+          "name": "Mia Swift",
+          "description": {
+              "appearance": "Petite and nimble, with long black hair and dark brown eyes. She has a mischievous smile.",
+              "attire": "Dresses in lightweight clothing, suitable for running and hiding. Often carries a sling bag with tools.",
+              "likes": "Exploring jungles, climbing trees, and discovering hidden treasures.",
+              "dislikes": "Authority figures, being told what to do, and crowded places.",
+              "behavior": "Quick, witty, and always on the move. She is great at getting out of tight situations.",
+              "weakness": "Can be impulsive and hard to keep track of.",
+              "strength": "Excellent at stealth and evasion."
+          }
+      },
+      {
+          "name": "Rex Thunder",
+          "description": {
+              "appearance": "Tall and broad-shouldered, with short black hair and dark eyes. He has a stern face.",
+              "attire": "Wears a tactical vest, cargo pants, and combat boots. Carries a multi-tool and a flashlight.",
+              "likes": "Exploring caves, climbing mountains, and testing his limits.",
+              "dislikes": "Injustice, failure, and being underestimated.",
+              "behavior": "Determined, brave, and highly disciplined. He thrives in challenging environments.",
+              "weakness": "Can be stubborn and resistant to help.",
+              "strength": "Unmatched physical strength and endurance."
+          }
+      },
+      {
+          "name": "Nina Quest",
+          "description": {
+              "appearance": "Slim and tall, with long red hair and blue eyes. She has a gentle but determined look.",
+              "attire": "Wears a utility jacket, leggings, and hiking boots. Always carries a journal and a pen.",
+              "likes": "Uncovering secrets, solving mysteries, and ancient civilizations.",
+              "dislikes": "Ignorance, close-mindedness, and being underestimated.",
+              "behavior": "Curious, intelligent, and resourceful. She is excellent at piecing together clues.",
+              "weakness": "Can be overly curious, leading to dangerous situations.",
+              "strength": "Brilliant at solving puzzles and uncovering hidden truths."
+          }
+      },
+      {
+          "name": "Sam Blaze",
+          "description": {
+              "appearance": "Athletic build, with short blonde hair and hazel eyes. He has a confident and charismatic demeanor.",
+              "attire": "Wears a rugged jacket, cargo shorts, and sturdy boots. Often has a pair of binoculars and a hat.",
+              "likes": "Exploring deserts, finding hidden treasures, and ancient myths.",
+              "dislikes": "Routine, being indoors, and dishonesty.",
+              "behavior": "Charismatic, adventurous, and always ready for the next challenge. He loves to lead and inspire.",
+              "weakness": "Can be overly confident and take unnecessary risks.",
+              "strength": "Excellent leadership skills and physical endurance."
+          }
+      },
+      {
+          "name": "Zara Hunter",
+          "description": {
+              "appearance": "Average height with a curvy figure. She has shoulder-length braided hair and expressive dark brown eyes. Her skin has a rich, mocha tone.She has a serious but approachable look.",
+              "attire": "Wears tactical gear, including a vest, cargo pants, and boots. Often seen with a rope and climbing gear.",
+              "likes": "Exploring jungles, climbing mountains, and solving ancient puzzles.",
+              "dislikes": "Deceit, idleness, and crowds.",
+              "behavior": "Focused, determined, and highly skilled. She excels at overcoming physical challenges.",
+              "weakness": "Can be too focused on her goals, sometimes ignoring the risks.",
+              "strength": "Exceptional climbing and survival skills."
+          }
+      }
+  ],
+  "discovery": [
+      {
+          "name": "Dr. Emily Chase",
+          "description": {
+              "appearance": "Short and slim with curly brown hair and glasses. She has bright blue eyes.",
+              "attire": "Wears a lab coat, jeans, and sneakers. Often carries a notebook and a magnifying glass.",
+              "likes": "Scientific research, solving puzzles, and exploring ancient ruins.",
+              "dislikes": "Ignorance, dishonesty, and laziness.",
+              "behavior": "Curious, intelligent, and meticulous. She loves to uncover hidden truths.",
+              "weakness": "Can be overly analytical and sometimes misses the bigger picture.",
+              "strength": "Expert in scientific investigation and analysis."
+          }
+      },
+      {
+          "name": "Professor Hugo Verne",
+          "description": {
+              "appearance": "Tall and full-figured with grey hair and a beard. He has deep brown eyes.",
+              "attire": "Wears a tweed jacket, trousers, and polished shoes. Often carries a briefcase.",
+              "likes": "Historical research, ancient manuscripts, and teaching.",
+              "dislikes": "Superficiality, loud noises, and modern gadgets.",
+              "behavior": "Wise, patient, and knowledgeable. He enjoys sharing his knowledge.",
+              "weakness": "Can be stubborn and resistant to new ideas.",
+              "strength": "Extensive knowledge of history and ancient civilizations."
+          }
+      },
+      {
+          "name": "Lily Carter",
+          "description": {
+              "appearance": "Medium height, corpulent, short blonde hair, and brown eyes.",
+              "attire": "Wears casual outdoor clothing and hiking boots. Carries a backpack with research tools.",
+              "likes": "Nature exploration, wildlife photography, and discovering new species.",
+              "dislikes": "Pollution, deforestation, and urban sprawl.",
+              "behavior": "Energetic, adventurous, and passionate about nature.",
+              "weakness": "Can be overly optimistic and take unnecessary risks.",
+              "strength": "Exceptional at field research and observation."
+          }
+      },
+      {
+          "name": "Theo Sparks",
+          "description": {
+              "appearance": "Short and stocky with black hair and dark eyes. He has a wide smile.",
+              "attire": "Wears casual clothes, including a t-shirt, jeans, and sneakers. Always has a camera.",
+              "likes": "Archaeological digs, ancient artifacts, and documenting findings.",
+              "dislikes": "Boredom, being indoors, and routine tasks.",
+              "behavior": "Cheerful, curious, and enthusiastic. Loves to explore and document discoveries.",
+              "weakness": "Can be easily distracted by new discoveries.",
+              "strength": "Great at finding and documenting archaeological sites."
+          }
+      },
+      {
+          "name": "Nina Quest",
+          "description": {
+              "appearance": "Slim and tall, with long red hair and blue eyes. She has a gentle but determined look.",
+              "attire": "Wears a utility jacket, leggings, and hiking boots. Always carries a journal and a pen.",
+              "likes": "Uncovering secrets, solving mysteries, and ancient civilizations.",
+              "dislikes": "Ignorance, close-mindedness, and being underestimated.",
+              "behavior": "Curious, intelligent, and resourceful. She is excellent at piecing together clues.",
+              "weakness": "Can be overly curious, leading to dangerous situations.",
+              "strength": "Brilliant at solving puzzles and uncovering hidden truths."
+          }
+      },
+      {
+          "name": "Oliver Gray",
+          "description": {
+              "appearance": "Tall and full-figured with grey hair and a mustache. He has piercing blue eyes.",
+              "attire": "Wears a vest, dress pants, and polished shoes. Often seen with a magnifying glass.",
+              "likes": "Ancient manuscripts, historical research, and teaching.",
+              "dislikes": "Ignorance, dishonesty, and laziness.",
+              "behavior": "Wise, patient, and knowledgeable. He loves to share his discoveries.",
+              "weakness": "Can be overly analytical and sometimes misses the bigger picture.",
+              "strength": "Expert in historical investigation and analysis."
+          }
+      },
+      {
+          "name": "Sophia Reed",
+          "description": {
+              "appearance": "Medium height with a average build, long black hair, and green eyes.",
+              "attire": "Wears casual outdoor clothing and hiking boots. Carries a backpack with research tools.",
+              "likes": "Nature exploration, wildlife photography, and discovering new species.",
+              "dislikes": "Pollution, deforestation, and urban sprawl.",
+              "behavior": "Energetic, adventurous, and passionate about nature.",
+              "weakness": "Can be overly optimistic and take unnecessary risks.",
+              "strength": "Exceptional at field research and observation."
+          }
+      },
+      {
+          "name": "Tommy Finn",
+          "description": {
+              "appearance": "Short and stocky with black hair and dark eyes. He has a wide smile.",
+              "attire": "Wears casual clothes, including a t-shirt, jeans, and sneakers. Always has a camera.",
+              "likes": "Archaeological digs, ancient artifacts, and documenting findings.",
+              "dislikes": "Boredom, being indoors, and routine tasks.",
+              "behavior": "Cheerful, curious, and enthusiastic. Loves to explore and document discoveries.",
+              "weakness": "Can be easily distracted by new discoveries.",
+              "strength": "Great at finding and documenting archaeological sites."
+          }
+      },
+      {
+          "name": "Maya Blake",
+          "description": {
+              "appearance": "Petite and nimble with long brown hair and brown eyes. She has a mischievous smile.",
+              "attire": "Wears lightweight, flexible clothing suitable for climbing and running. Often carries a sling bag with tools.",
+              "likes": "Exploring jungles, climbing trees, and discovering hidden treasures.",
+              "dislikes": "Authority figures, being told what to do, and crowded places.",
+              "behavior": "Quick, witty, and always on the move. She is great at getting out of tight situations.",
+              "weakness": "Can be impulsive and hard to keep track of.",
+              "strength": "Excellent at stealth and evasion."
+          }
+      },
+      {
+          "name": "Jack Hunter",
+          "description": {
+              "appearance": "Sturdy build with short brown hair and a beard. He has sharp brown eyes.",
+              "attire": "Wears a flannel shirt, jeans, and sturdy boots. Often seen with a hunting knife and a canteen.",
+              "likes": "Tracking wildlife, survival challenges, and mountain hiking.",
+              "dislikes": "Laziness, modern technology, and noise.",
+              "behavior": "Serious, focused, and highly skilled in survival techniques. He is a natural leader.",
+              "weakness": "Can be overly serious and hard to relax.",
+              "strength": "Expert in tracking and wilderness survival."
+          }
+      }
+  ],
+  "travel": [
+      {
+          "name": "Ella Wander",
+          "description": {
+              "appearance": "Tall and slender with long auburn hair and hazel eyes. She has a warm, inviting smile.",
+              "attire": "Wears casual, comfortable travel clothing, including a sundress and sandals. Often carries a large tote bag.",
+              "likes": "Exploring new cities, trying exotic foods, and meeting new people.",
+              "dislikes": "Routine, closed-mindedness, and staying in one place for too long.",
+              "behavior": "Curious, friendly, and always excited to learn about new cultures.",
+              "weakness": "Can be overly trusting of strangers.",
+              "strength": "Excellent at adapting to new environments."
+          }
+      },
+      {
+          "name": "Miles Rover",
+          "description": {
+              "appearance": "Medium height with a average build, short black hair, and blue eyes. He has a perpetual tan.",
+              "attire": "Wears hiking gear, including a sturdy backpack, boots, and a wide-brimmed hat.",
+              "likes": "Hiking, camping, and discovering remote locations.",
+              "dislikes": "Urban noise, crowded places, and rigid schedules.",
+              "behavior": "Adventurous, resourceful, and always looking for the next great journey.",
+              "weakness": "Can be overly ambitious and push himself too hard.",
+              "strength": "Great at navigating and surviving in the wild."
+          }
+      },
+      {
+          "name": "Sophia Globe",
+          "description": {
+              "appearance": "Petite and nimble with short blonde hair and green eyes. She has a vibrant personality.",
+              "attire": "Wears practical travel attire, including cargo pants, a t-shirt, and hiking shoes. Often seen with a camera.",
+              "likes": "Photography, cultural festivals, and travel blogging.",
+              "dislikes": "Monotony, bad weather, and limited internet access.",
+              "behavior": "Energetic, inquisitive, and always on the lookout for the perfect shot.",
+              "weakness": "Can get too caught up in capturing the moment rather than experiencing it.",
+              "strength": "Excellent at capturing and sharing travel experiences."
+          }
+      },
+      {
+          "name": "Leo Vagabond",
+          "description": {
+              "appearance": "Tall and full-figured with curly brown hair and brown eyes. He has a relaxed demeanor.",
+              "attire": "Wears casual clothing, including jeans, a t-shirt, and a hoodie. Often seen with a backpack and a map.",
+              "likes": "Backpacking, local cuisines, and street music.",
+              "dislikes": "Tourist traps, fast food, and strict itineraries.",
+              "behavior": "Easygoing, adaptable, and enjoys blending in with the locals.",
+              "weakness": "Can be overly spontaneous and unprepared.",
+              "strength": "Great at improvising and making the best of any situation."
+          }
+      },
+      {
+          "name": "Lila Nomad",
+          "description": {
+              "appearance": "Medium height with a average build, long black hair, and dark eyes. She has a mysterious aura.",
+              "attire": "Wears bohemian-style clothing, including flowing dresses and sandals. Often carries a travel journal.",
+              "likes": "Exploring ancient ruins, learning about local folklore, and writing travel stories.",
+              "dislikes": "Commercialized tourism, overcrowded places, and modern technology.",
+              "behavior": "Adventurous, introspective, and enjoys immersing herself in different cultures.",
+              "weakness": "Can be overly idealistic and unpractical.",
+              "strength": "Great at storytelling and capturing the essence of her travels."
+          }
+      },
+      {
+          "name": "Jack Journey",
+          "description": {
+              "appearance": "Sturdy build with short black hair and blue eyes. He has a rugged look.",
+              "attire": "Wears practical travel gear, including cargo pants, a t-shirt, and hiking boots. Often carries a multi-tool.",
+              "likes": "Mountain climbing, scuba diving, and extreme sports.",
+              "dislikes": "Boredom, inactivity, and staying in one place for too long.",
+              "behavior": "Adventurous, fearless, and always looking for the next thrill.",
+              "weakness": "Can be reckless and take unnecessary risks.",
+              "strength": "Exceptional at extreme sports and outdoor activities."
+          }
+      },
+      {
+          "name": "Nina Wanderlust",
+          "description": {
+              "appearance": "Slender and agile with long red hair and blue eyes. She has a cheerful smile.",
+              "attire": "Wears comfortable travel clothes, including leggings, a t-shirt, and sneakers. Always carries a travel guidebook.",
+              "likes": "Exploring new cultures, trying local delicacies, and meeting new people.",
+              "dislikes": "Closed-mindedness, strict itineraries, and bland food.",
+              "behavior": "Friendly, curious, and always eager to learn about the world.",
+              "weakness": "Can be overly trusting and naive.",
+              "strength": "Great at making friends and connecting with locals."
+          }
+      },
+      {
+          "name": "Sam Roamer",
+          "description": {
+              "appearance": "Medium height with a average build, short brown hair, and green eyes. He has a laid-back demeanor.",
+              "attire": "Wears casual travel attire, including shorts, a tank top, and flip-flops. Often carries a surfboard.",
+              "likes": "Surfing, beachcombing, and coastal towns.",
+              "dislikes": "Cold weather, crowded cities, and formal events.",
+              "behavior": "Relaxed, adventurous, and loves the ocean.",
+              "weakness": "Can be too carefree and neglect important details.",
+              "strength": "Exceptional at water sports and coastal navigation."
+          }
+      },
+      {
+          "name": "Zara Voyager",
+          "description": {
+              "appearance": "Medium height and average build with short black hair and hazel eyes. She has a confident look.",
+              "attire": "Wears practical travel gear, including a vest, cargo pants, and hiking boots. Often seen with binoculars.",
+              "likes": "Birdwatching, hiking, and exploring national parks.",
+              "dislikes": "Urban pollution, noise, and crowded tourist spots.",
+              "behavior": "Determined, observant, and passionate about wildlife.",
+              "weakness": "Can be overly focused on her interests and neglect other aspects.",
+              "strength": "Great at wildlife observation and nature conservation."
+          }
+      },
+      {
+          "name": "Rex Globe-Trotter",
+          "description": {
+              "appearance": "Tall and broad-shouldered with short blonde hair and blue eyes. He has a rugged look.",
+              "attire": "Wears travel gear, including a utility jacket, jeans, and hiking boots. Often carries a map and compass.",
+              "likes": "Exploring remote places, learning new languages, and survival challenges.",
+              "dislikes": "Routine, being indoors, and dishonesty.",
+              "behavior": "Adventurous, resourceful, and always ready for the next challenge.",
+              "weakness": "Can be overly confident and take unnecessary risks.",
+              "strength": "Great at navigating and surviving in challenging environments."
+          }
+      }
+  ],
+  "novel": [
+      {
+          "name": "Charlotte Evergreen",
+          "description": {
+              "appearance": "Tall and slender with long brown hair and green eyes. She has a graceful demeanor.",
+              "attire": "Wears elegant dresses, often with floral patterns. Always seen with a book in hand.",
+              "likes": "Reading, writing, and classical music.",
+              "dislikes": "Noise, chaos, and superficial conversations.",
+              "behavior": "Calm, introspective, and thoughtful. She enjoys quiet moments and deep discussions.",
+              "weakness": "Can be overly reserved and hesitant to take risks.",
+              "strength": "Great at storytelling and understanding complex emotions."
+          }
+      },
+      {
+          "name": "Henry Blackwood",
+          "description": {
+              "appearance": "Tall and full-figured with short black hair and dark eyes. He has a serious expression.",
+              "attire": "Wears suits or casual blazers and trousers. Often carries a leather-bound notebook.",
+              "likes": "Writing, philosophy, and dark coffee.",
+              "dislikes": "Ignorance, pretentiousness, and small talk.",
+              "behavior": "Intelligent, introspective, and often lost in thought. He values deep conversations.",
+              "weakness": "Can be overly critical and hard to please.",
+              "strength": "Excellent at crafting intricate plotlines and characters."
+          }
+      },
+      {
+          "name": "Isabella Rose",
+          "description": {
+              "appearance": "Petite with long red hair and hazel eyes. She has a kind and approachable demeanor.",
+              "attire": "Wears vintage-inspired clothing, often with lace and delicate patterns. Always carries a notebook.",
+              "likes": "Writing poetry, attending literary events, and gardening.",
+              "dislikes": "Rudeness, clutter, and synthetic fabrics.",
+              "behavior": "Gentle, creative, and passionate about literature. She finds beauty in the small things.",
+              "weakness": "Can be overly sensitive and easily hurt.",
+              "strength": "Great at capturing emotions and creating vivid imagery."
+          }
+      },
+      {
+          "name": "Julian Blake",
+          "description": {
+              "appearance": "Medium height with a average build, short brown hair, and brown eyes. He has a charming smile.",
+              "attire": "Wears casual yet stylish clothing, often with a touch of vintage flair. Always has a notebook and pen.",
+              "likes": "Writing, traveling, and exploring new cultures.",
+              "dislikes": "Routine, close-mindedness, and bland food.",
+              "behavior": "Curious, friendly, and loves to learn about the world. He enjoys meeting new people.",
+              "weakness": "Can be overly curious and neglect important details.",
+              "strength": "Great at weaving different cultures and experiences into his stories."
+          }
+      },
+      {
+          "name": "Victoria Steele",
+          "description": {
+              "appearance": "Medium height and average build with short blonde hair and brown eyes. She has a confident demeanor.",
+              "attire": "Wears practical yet stylish clothing, including blazers and jeans. Often carries a laptop.",
+              "likes": "Writing thrillers, solving puzzles, and attending book signings.",
+              "dislikes": "Boredom, dishonesty, and lack of ambition.",
+              "behavior": "Determined, resourceful, and always ready for a challenge. She enjoys crafting intricate plots.",
+              "weakness": "Can be overly focused on work and neglect her personal life.",
+              "strength": "Excellent at creating suspense and keeping readers on edge."
+          }
+      },
+      {
+          "name": "Oliver Swift",
+          "description": {
+              "appearance": "Tall and full-figured with short black hair and brown eyes. He has a mysterious aura.",
+              "attire": "Wears casual clothing, often with a touch of bohemian style. Always carries a camera.",
+              "likes": "Writing, photography, and exploring abandoned places.",
+              "dislikes": "Routine, crowded places, and artificial environments.",
+              "behavior": "Creative, introspective, and loves to capture the essence of forgotten places.",
+              "weakness": "Can be overly focused on his creative pursuits and neglect practical matters.",
+              "strength": "Great at creating atmospheric and evocative descriptions."
+          }
+      },
+      {
+          "name": "Lydia Black",
+          "description": {
+              "appearance": "Medium height with a average build, long black hair, and green eyes. She has a mysterious aura.",
+              "attire": "Wears elegant, dark clothing, often with intricate patterns. Always carries a leather-bound notebook.",
+              "likes": "Writing gothic novels, exploring old libraries, and attending literary events.",
+              "dislikes": "Bright lights, loud noises, and superficial conversations.",
+              "behavior": "Intelligent, introspective, and passionate about literature. She enjoys quiet moments and deep discussions.",
+              "weakness": "Can be overly reserved and hesitant to take risks.",
+              "strength": "Great at creating atmospheric and evocative descriptions."
+          }
+      },
+      {
+          "name": "Nathan White",
+          "description": {
+              "appearance": "Tall and full-figured with short brown hair and brown eyes. He has a charming smile.",
+              "attire": "Wears casual yet stylish clothing, often with a touch of vintage flair. Always has a notebook and pen.",
+              "likes": "Writing, traveling, and exploring new cultures.",
+              "dislikes": "Routine, close-mindedness, and bland food.",
+              "behavior": "Curious, friendly, and loves to learn about the world. He enjoys meeting new people.",
+              "weakness": "Can be overly curious and neglect important details.",
+              "strength": "Great at weaving different cultures and experiences into his stories."
+          }
+      },
+      {
+          "name": "Fiona Lake",
+          "description": {
+              "appearance": "Petite with long blonde hair and brown eyes. She has a kind and approachable demeanor.",
+              "attire": "Wears vintage-inspired clothing, often with lace and delicate patterns. Always carries a notebook.",
+              "likes": "Writing poetry, attending literary events, and gardening.",
+              "dislikes": "Rudeness, clutter, and synthetic fabrics.",
+              "behavior": "Gentle, creative, and passionate about literature. She finds beauty in the small things.",
+              "weakness": "Can be overly sensitive and easily hurt.",
+              "strength": "Great at capturing emotions and creating vivid imagery."
+          }
+      },
+      {
+          "name": "George Stone",
+          "description": {
+              "appearance": "Tall and broad-shouldered with short blonde hair and brown eyes. He has a rugged look.",
+              "attire": "Wears practical travel gear, including a utility jacket, jeans, and hiking boots. Often carries a map and compass.",
+              "likes": "Exploring remote places, learning new languages, and survival challenges.",
+              "dislikes": "Routine, being indoors, and dishonesty.",
+              "behavior": "Adventurous, resourceful, and always ready for the next challenge.",
+              "weakness": "Can be overly confident and take unnecessary risks.",
+              "strength": "Great at navigating and surviving in challenging environments."
+          }
+      }
+  ],
+  "mystery": [
+      {
+          "name": "Detective James Harper",
+          "description": {
+              "appearance": "Tall and full-figured with short black hair and piercing brown eyes. He has a serious demeanor.",
+              "attire": "Wears a trench coat, dress pants, and polished shoes. Often carries a magnifying glass and notebook.",
+              "likes": "Solving crimes, uncovering secrets, and justice.",
+              "dislikes": "Deception, injustice, and loose ends.",
+              "behavior": "Observant, intelligent, and methodical. He is dedicated to solving mysteries.",
+              "weakness": "Can be overly focused on work and neglect personal relationships.",
+              "strength": "Exceptional at solving puzzles and uncovering hidden truths."
+          }
+      },
+      {
+          "name": "Inspector Clara Blake",
+          "description": {
+              "appearance": "Medium height with a average build, short blonde hair, and green eyes. She has a sharp look.",
+              "attire": "Wears a tailored suit, dress shoes, and often carries a notebook and pen.",
+              "likes": "Investigating crimes, reading crime novels, and justice.",
+              "dislikes": "Dishonesty, corruption, and inefficiency.",
+              "behavior": "Intelligent, determined, and resourceful. She is excellent at piecing together clues.",
+              "weakness": "Can be overly focused on work and neglect personal life.",
+              "strength": "Great at uncovering hidden clues and solving complex cases."
+          }
+      },
+      {
+          "name": "Private Investigator Sam Cole",
+          "description": {
+              "appearance": "Tall and broad-shouldered with short brown hair and dark eyes. He has a rugged look.",
+              "attire": "Wears casual yet practical clothing, including a leather jacket and jeans. Often carries a camera.",
+              "likes": "Investigating mysteries, uncovering secrets, and justice.",
+              "dislikes": "Corruption, dishonesty, and loose ends.",
+              "behavior": "Resourceful, determined, and always ready for a challenge. He enjoys solving mysteries.",
+              "weakness": "Can be overly focused on work and neglect personal life.",
+              "strength": "Exceptional at uncovering hidden truths and solving puzzles."
+          }
+      },
+      {
+          "name": "Forensic Scientist Emily Reid",
+          "description": {
+              "appearance": "Petite and nimble with short black hair and brown eyes. She has a sharp look.",
+              "attire": "Wears a lab coat, jeans, and sneakers. Often carries a magnifying glass and notebook.",
+              "likes": "Solving crimes, uncovering secrets, and justice.",
+              "dislikes": "Dishonesty, corruption, and inefficiency.",
+              "behavior": "Intelligent, determined, and resourceful. She is excellent at piecing together clues.",
+              "weakness": "Can be overly focused on work and neglect personal life.",
+              "strength": "Great at uncovering hidden clues and solving complex cases."
+          }
+      },
+      {
+          "name": "Detective Lucas Black",
+          "description": {
+              "appearance": "Tall and full-figured with short black hair and dark eyes. He has a serious look.",
+              "attire": "Wears a trench coat, dress pants, and polished shoes. Often carries a magnifying glass and notebook.",
+              "likes": "Solving crimes, uncovering secrets, and justice.",
+              "dislikes": "Deception, injustice, and loose ends.",
+              "behavior": "Observant, intelligent, and methodical. He is dedicated to solving mysteries.",
+              "weakness": "Can be overly focused on work and neglect personal relationships.",
+              "strength": "Exceptional at solving puzzles and uncovering hidden truths."
+          }
+      },
+      {
+          "name": "Inspector Lily James",
+          "description": {
+              "appearance": "Medium height with a average build, long black hair, and brown eyes. She has a sharp look.",
+              "attire": "Wears a tailored suit, dress shoes, and often carries a notebook and pen.",
+              "likes": "Investigating crimes, reading crime novels, and justice.",
+              "dislikes": "Dishonesty, corruption, and inefficiency.",
+              "behavior": "Intelligent, determined, and resourceful. She is excellent at piecing together clues.",
+              "weakness": "Can be overly focused on work and neglect personal life.",
+              "strength": "Great at uncovering hidden clues and solving complex cases."
+          }
+      },
+      {
+          "name": "Private Investigator Jake Stone",
+          "description": {
+              "appearance": "Tall and broad-shouldered with short brown hair and dark eyes. He has a rugged look.",
+              "attire": "Wears casual yet practical clothing, including a leather jacket and jeans. Often carries a camera.",
+              "likes": "Investigating mysteries, uncovering secrets, and justice.",
+              "dislikes": "Corruption, dishonesty, and loose ends.",
+              "behavior": "Resourceful, determined, and always ready for a challenge. He enjoys solving mysteries.",
+              "weakness": "Can be overly focused on work and neglect personal life.",
+              "strength": "Exceptional at uncovering hidden truths and solving puzzles."
+          }
+      },
+      {
+          "name": "Forensic Scientist Sarah Brown",
+          "description": {
+              "appearance": "Petite and nimble with long brown hair and brown eyes. She has a sharp look.",
+              "attire": "Wears a lab coat, jeans, and sneakers. Often carries a magnifying glass and notebook.",
+              "likes": "Solving crimes, uncovering secrets, and justice.",
+              "dislikes": "Dishonesty, corruption, and inefficiency.",
+              "behavior": "Intelligent, determined, and resourceful. She is excellent at piecing together clues.",
+              "weakness": "Can be overly focused on work and neglect personal life.",
+              "strength": "Great at uncovering hidden clues and solving complex cases."
+          }
+      },
+      {
+          "name": "Detective Alex White",
+          "description": {
+              "appearance": "Tall and full-figured with short black hair and dark eyes. He has a serious look.",
+              "attire": "Wears a trench coat, dress pants, and polished shoes. Often carries a magnifying glass and notebook.",
+              "likes": "Solving crimes, uncovering secrets, and justice.",
+              "dislikes": "Deception, injustice, and loose ends.",
+              "behavior": "Observant, intelligent, and methodical. He is dedicated to solving mysteries.",
+              "weakness": "Can be overly focused on work and neglect personal relationships.",
+              "strength": "Exceptional at solving puzzles and uncovering hidden truths."
+          }
+      },
+      {
+          "name": "Inspector Emma Green",
+          "description": {
+              "appearance": "Medium height with a average build, long blonde hair, and brown eyes. She has a sharp look.",
+              "attire": "Wears a tailored suit, dress shoes, and often carries a notebook and pen.",
+              "likes": "Investigating crimes, reading crime novels, and justice.",
+              "dislikes": "Dishonesty, corruption, and inefficiency.",
+              "behavior": "Intelligent, determined, and resourceful. She is excellent at piecing together clues.",
+              "weakness": "Can be overly focused on work and neglect personal life.",
+              "strength": "Great at uncovering hidden clues and solving complex cases."
+          }
+      }
+  ],
+  "fantasy": [
+      {
+          "name": "Eldric the Brave",
+          "description": {
+              "appearance": "Tall and muscular with long blonde hair and brown eyes. He has a noble presence.",
+              "attire": "Wears shining armor and carries a gleaming sword. Often seen with a shield emblazoned with a lion.",
+              "likes": "Heroic quests, protecting the innocent, and defeating evil.",
+              "dislikes": "Cowardice, betrayal, and dark magic.",
+              "behavior": "Brave, honorable, and always ready to fight for justice.",
+              "weakness": "Can be overly confident and take unnecessary risks.",
+              "strength": "Exceptional strength and combat skills."
+          }
+      },
+      {
+          "name": "Luna the Enchantress",
+          "description": {
+              "appearance": "Slender and graceful with long silver hair and violet eyes. She has an ethereal beauty.",
+              "attire": "Wears flowing robes adorned with mystical symbols. Often carries a staff with a glowing crystal.",
+              "likes": "Magic, ancient lore, and helping others.",
+              "dislikes": "Dark magic, ignorance, and cruelty.",
+              "behavior": "Wise, compassionate, and always willing to lend her magical abilities to those in need.",
+              "weakness": "Can be overly trusting and naive.",
+              "strength": "Powerful magical abilities and vast knowledge of ancient lore."
+          }
+      },
+      {
+          "name": "Thorne the Shadow",
+          "description": {
+              "appearance": "Tall and full-figured with short black hair and piercing green eyes. He has a mysterious aura.",
+              "attire": "Wears dark, stealthy clothing and a cloak. Often carries a set of daggers.",
+              "likes": "Stealth missions, uncovering secrets, and treasure hunting.",
+              "dislikes": "Loud noises, bright lights, and unnecessary violence.",
+              "behavior": "Cunning, resourceful, and prefers to work from the shadows.",
+              "weakness": "Can be overly secretive and distrustful.",
+              "strength": "Exceptional at stealth and infiltration."
+          }
+      },
+      {
+          "name": "Ayla the Archer",
+          "description": {
+              "appearance": "Petite and agile with long auburn hair and hazel eyes. She has a keen, alert look.",
+              "attire": "Wears light, flexible armor and a cloak. Carries a bow and a quiver of arrows.",
+              "likes": "Archery, exploring forests, and protecting nature.",
+              "dislikes": "Destruction of nature, cruelty to animals, and injustice.",
+              "behavior": "Quick, agile, and fiercely protective of the natural world.",
+              "weakness": "Can be overly idealistic and headstrong.",
+              "strength": "Exceptional archery skills and agility."
+          }
+      },
+      {
+          "name": "Gorim the Stalwart",
+          "description": {
+              "appearance": "Short and stout with a long brown beard and deep-set brown eyes. He has a sturdy build.",
+              "attire": "Wears heavy armor and carries a large war hammer. Often seen with a shield.",
+              "likes": "Mining, crafting, and defending his homeland.",
+              "dislikes": "Cowardice, deceit, and disrespect.",
+              "behavior": "Brave, loyal, and steadfast. He is a formidable warrior.",
+              "weakness": "Can be stubborn and slow to trust outsiders.",
+              "strength": "Unmatched strength and resilience in battle."
+          }
+      },
+      {
+          "name": "Seraphina the Sorceress",
+          "description": {
+              "appearance": "Tall and elegant with long red hair and emerald green eyes. She has a commanding presence.",
+              "attire": "Wears ornate robes and a cloak adorned with mystical symbols. Carries a staff.",
+              "likes": "Studying ancient magic, casting spells, and helping others.",
+              "dislikes": "Dark magic, ignorance, and arrogance.",
+              "behavior": "Wise, powerful, and compassionate. She uses her magic for good.",
+              "weakness": "Can be overly protective and hesitant to take risks.",
+              "strength": "Powerful magical abilities and extensive knowledge of ancient lore."
+          }
+      },
+      {
+          "name": "Fenrir the Wolf",
+          "description": {
+              "appearance": "Tall and muscular with wild black hair and sharp brown eyes. He has a feral look.",
+              "attire": "Wears fur-lined clothing and carries a large axe. Often seen with a wolf companion.",
+              "likes": "Hunting, survival, and protecting his pack.",
+              "dislikes": "Injustice, betrayal, and captivity.",
+              "behavior": "Fierce, loyal, and protective. He is a skilled hunter and warrior.",
+              "weakness": "Can be overly aggressive and distrustful of strangers.",
+              "strength": "Exceptional strength and survival skills."
+          }
+      },
+      {
+          "name": "Elara the Seer",
+          "description": {
+              "appearance": "Slender and graceful with long silver hair and violet eyes. She has a mystical aura.",
+              "attire": "Wears flowing robes adorned with mystical symbols. Often carries a crystal ball.",
+              "likes": "Foretelling the future, ancient lore, and helping others.",
+              "dislikes": "Dark magic, ignorance, and cruelty.",
+              "behavior": "Wise, compassionate, and always willing to lend her abilities to those in need.",
+              "weakness": "Can be overly trusting and naive.",
+              "strength": "Powerful clairvoyant abilities and vast knowledge of ancient lore."
+          }
+      },
+      {
+          "name": "Drake the Dragon Slayer",
+          "description": {
+              "appearance": "Tall and muscular with short black hair and brown eyes. He has a determined look.",
+              "attire": "Wears sturdy armor and carries a large sword. Often seen with dragon scales as trophies.",
+              "likes": "Heroic quests, protecting the innocent, and defeating dragons.",
+              "dislikes": "Cowardice, betrayal, and dark magic.",
+              "behavior": "Brave, honorable, and always ready to fight for justice.",
+              "weakness": "Can be overly confident and take unnecessary risks.",
+              "strength": "Exceptional strength and combat skills."
+          }
+      },
+      {
+          "name": "Mira the Moonlight",
+          "description": {
+              "appearance": "Slender and graceful with long black hair and silver eyes. She has an ethereal beauty.",
+              "attire": "Wears flowing robes adorned with moon motifs. Often carries a staff with a glowing crystal.",
+              "likes": "Magic, ancient lore, and helping others.",
+              "dislikes": "Dark magic, ignorance, and cruelty.",
+              "behavior": "Wise, compassionate, and always willing to lend her magical abilities to those in need.",
+              "weakness": "Can be overly trusting and naive.",
+              "strength": "Powerful magical abilities and vast knowledge of ancient lore."
+          }
+      }
+  ],
+  "science fiction": [
+      {
+          "name": "Captain Orion Blaze",
+          "description": {
+              "appearance": "Medium height and average build with short black hair and piercing brown eyes. He has a confident and commanding presence.",
+              "attire": "Wears a sleek, futuristic uniform with a captain's insignia. Often carries a laser pistol.",
+              "likes": "Exploring new worlds, leading missions, and advancing technology.",
+              "dislikes": "Disorder, injustice, and outdated technology.",
+              "behavior": "Brave, intelligent, and a natural leader. He thrives under pressure.",
+              "weakness": "Can be overly confident and take unnecessary risks.",
+              "strength": "Exceptional leadership skills and strategic thinking."
+          }
+      },
+      {
+          "name": "Dr. Nova Quinn",
+          "description": {
+              "appearance": "Medium height with a full-figured build, short blonde hair, and green eyes. She has a focused and determined look.",
+              "attire": "Wears a white lab coat with various scientific tools. Often seen with a holographic tablet.",
+              "likes": "Scientific research, discovering new technologies, and solving complex problems.",
+              "dislikes": "Ignorance, pseudoscience, and bureaucracy.",
+              "behavior": "Intelligent, analytical, and dedicated to her work. She is passionate about science.",
+              "weakness": "Can be overly focused on work and neglect personal relationships.",
+              "strength": "Exceptional at scientific research and technological innovation."
+          }
+      },
+      {
+          "name": "Xander the Cyborg",
+          "description": {
+              "appearance": "Tall and muscular with short black hair and glowing brown eyes. He has various cybernetic enhancements.",
+              "attire": "Wears a high-tech combat suit with integrated weaponry. Often carries a plasma rifle.",
+              "likes": "Combat, upgrading his enhancements, and protecting the innocent.",
+              "dislikes": "Corruption, injustice, and outdated technology.",
+              "behavior": "Brave, resourceful, and always ready for a fight. He uses his enhancements to protect others.",
+              "weakness": "Can be overly reliant on technology and struggle with his human side.",
+              "strength": "Exceptional combat skills and advanced cybernetic enhancements."
+          }
+      },
+      {
+          "name": "Aria the Pilot",
+          "description": {
+              "appearance": "Slender and agile with short brown hair and brown eyes. She has a confident and adventurous look.",
+              "attire": "Wears a sleek flight suit with various patches. Often carries a helmet.",
+              "likes": "Flying, exploring new worlds, and pushing the limits.",
+              "dislikes": "Grounded missions, routine, and strict protocols.",
+              "behavior": "Adventurous, fearless, and always ready for the next mission. She loves the thrill of flight.",
+              "weakness": "Can be overly reckless and take unnecessary risks.",
+              "strength": "Exceptional piloting skills and quick reflexes."
+          }
+      },
+      {
+          "name": "Zara the Engineer",
+          "description": {
+              "appearance": "Medium height with a average build, short black hair, and brown eyes. She has a focused and determined look.",
+              "attire": "Wears a utility jumpsuit with various tools. Often seen with a welding torch.",
+              "likes": "Fixing things, creating new gadgets, and solving technical problems.",
+              "dislikes": "Breakdowns, inefficiency, and poorly designed systems.",
+              "behavior": "Resourceful, intelligent, and always ready to tackle the next challenge. She is a brilliant engineer.",
+              "weakness": "Can be overly focused on work and neglect personal relationships.",
+              "strength": "Exceptional engineering skills and technical knowledge."
+          }
+      },
+      {
+          "name": "Kai the Explorer",
+          "description": {
+              "appearance": "Tall and full-figured with short blonde hair and green eyes. He has a curious and adventurous look.",
+              "attire": "Wears a high-tech exploration suit with various sensors. Often carries a data pad.",
+              "likes": "Exploring new planets, discovering alien life, and documenting his findings.",
+              "dislikes": "Routine, closed-mindedness, and confined spaces.",
+              "behavior": "Curious, intelligent, and always ready for the next adventure. He loves exploring the unknown.",
+              "weakness": "Can be overly curious and take unnecessary risks.",
+              "strength": "Exceptional exploration skills and scientific knowledge."
+          }
+      },
+      {
+          "name": "Luna the Navigator",
+          "description": {
+              "appearance": "Slender and agile with long black hair and violet eyes. She has a calm and focused demeanor.",
+              "attire": "Wears a sleek navigation suit with various controls. Often seen with a star map.",
+              "likes": "Charting new courses, discovering new stars, and guiding missions.",
+              "dislikes": "Disorder, being lost, and faulty equipment.",
+              "behavior": "Calm, intelligent, and always ready to guide the next mission. She is a brilliant navigator.",
+              "weakness": "Can be overly cautious and hesitant to take risks.",
+              "strength": "Exceptional navigation skills and stellar knowledge."
+          }
+      },
+      {
+          "name": "Orion the Mercenary",
+          "description": {
+              "appearance": "Tall and muscular with short brown hair and dark eyes. He has a rugged and determined look.",
+              "attire": "Wears a high-tech combat suit with integrated weaponry. Often carries a plasma rifle.",
+              "likes": "Combat, upgrading his gear, and taking on challenging missions.",
+              "dislikes": "Corruption, injustice, and outdated technology.",
+              "behavior": "Brave, resourceful, and always ready for a fight. He uses his skills to protect others.",
+              "weakness": "Can be overly reliant on technology and struggle with his human side.",
+              "strength": "Exceptional combat skills and advanced weaponry."
+          }
+      },
+      {
+          "name": "Nova the Scientist",
+          "description": {
+              "appearance": "Medium height with a full-figured build, short blonde hair, and green eyes. She has a focused and determined look.",
+              "attire": "Wears a white lab coat with various scientific tools. Often seen with a holographic tablet.",
+              "likes": "Scientific research, discovering new technologies, and solving complex problems.",
+              "dislikes": "Ignorance, pseudoscience, and bureaucracy.",
+              "behavior": "Intelligent, analytical, and dedicated to her work. She is passionate about science.",
+              "weakness": "Can be overly focused on work and neglect personal relationships.",
+              "strength": "Exceptional at scientific research and technological innovation."
+          }
+      },
+      {
+          "name": "Rex the Soldier",
+          "description": {
+              "appearance": "Tall and muscular with short black hair and dark eyes. He has a confident and commanding presence.",
+              "attire": "Wears a sleek, futuristic combat suit with integrated weaponry. Often carries a laser pistol.",
+              "likes": "Combat, leading missions, and advancing technology.",
+              "dislikes": "Disorder, injustice, and outdated technology.",
+              "behavior": "Brave, intelligent, and a natural leader. He thrives under pressure.",
+              "weakness": "Can be overly confident and take unnecessary risks.",
+              "strength": "Exceptional combat skills and strategic thinking."
+          }
+      }
+  ],
+  "historical fiction": [
+      {
+          "name": "Sir William of Lancaster",
+          "description": {
+              "appearance": "Tall and strong with short blonde hair and brown eyes. He has a noble and commanding presence.",
+              "attire": "Wears a knight's armor with a family crest. Often carries a sword and shield.",
+              "likes": "Chivalry, honor, and protecting the weak.",
+              "dislikes": "Cowardice, betrayal, and injustice.",
+              "behavior": "Brave, honorable, and always ready to fight for justice.",
+              "weakness": "Can be overly proud and take unnecessary risks.",
+              "strength": "Exceptional combat skills and unwavering loyalty."
+          }
+      },
+      {
+          "name": "Lady Isabella Fairfax",
+          "description": {
+              "appearance": "Slender and graceful with long auburn hair and green eyes. She has a regal and refined look.",
+              "attire": "Wears elegant gowns with intricate embroidery. Often seen with a fan and a book.",
+              "likes": "Courtly manners, literature, and music.",
+              "dislikes": "Rudeness, ignorance, and deceit.",
+              "behavior": "Intelligent, cultured, and compassionate. She values knowledge and justice.",
+              "weakness": "Can be overly trusting and naive.",
+              "strength": "Great at diplomacy and understanding complex social dynamics."
+          }
+      },
+      {
+          "name": "Captain James Hawke",
+          "description": {
+              "appearance": "Tall and full-figured with short black hair and piercing brown eyes. He has a stern and determined look.",
+              "attire": "Wears a naval uniform with various medals. Often carries a spyglass and a map.",
+              "likes": "Naval battles, exploration, and strategy.",
+              "dislikes": "Cowardice, betrayal, and disorder.",
+              "behavior": "Brave, strategic, and always ready for the next challenge. He excels in naval warfare.",
+              "weakness": "Can be overly strict and hard to approach.",
+              "strength": "Exceptional leadership skills and naval strategy."
+          }
+      },
+      {
+          "name": "Doctor Efull-figuredor Gray",
+          "description": {
+              "appearance": "Medium height with a average build, long black hair, and brown eyes. She has a serious and focused look.",
+              "attire": "Wears a doctor's coat and period-appropriate clothing. Often seen with medical tools.",
+              "likes": "Medicine, helping others, and scientific research.",
+              "dislikes": "Ignorance, superstition, and apathy.",
+              "behavior": "Intelligent, compassionate, and dedicated to her work. She is a skilled healer.",
+              "weakness": "Can be overly focused on work and neglect personal relationships.",
+              "strength": "Exceptional medical skills and scientific knowledge."
+          }
+      },
+      {
+          "name": "Marcus the Gladiator",
+          "description": {
+              "appearance": "Tall and muscular with short black hair and dark eyes. He has a fierce and determined look.",
+              "attire": "Wears gladiator armor with a helmet. Often carries a sword and shield.",
+              "likes": "Combat, honor, and protecting the weak.",
+              "dislikes": "Cowardice, betrayal, and injustice.",
+              "behavior": "Brave, honorable, and always ready to fight for justice.",
+              "weakness": "Can be overly proud and take unnecessary risks.",
+              "strength": "Exceptional combat skills and unwavering loyalty."
+          }
+      },
+      {
+          "name": "Princess Elara of Albion",
+          "description": {
+              "appearance": "Slender and graceful with long blonde hair and brown eyes. She has a regal and refined look.",
+              "attire": "Wears elegant gowns with intricate embroidery. Often seen with a fan and a book.",
+              "likes": "Courtly manners, literature, and music.",
+              "dislikes": "Rudeness, ignorance, and deceit.",
+              "behavior": "Intelligent, cultured, and compassionate. She values knowledge and justice.",
+              "weakness": "Can be overly trusting and naive.",
+              "strength": "Great at diplomacy and understanding complex social dynamics."
+          }
+      },
+      {
+          "name": "Alexander the Conqueror",
+          "description": {
+              "appearance": "Tall and strong with short brown hair and dark eyes. He has a fierce and commanding presence.",
+              "attire": "Wears a warrior's armor with a royal crest. Often carries a sword and shield.",
+              "likes": "Combat, honor, and expanding his empire.",
+              "dislikes": "Cowardice, betrayal, and injustice.",
+              "behavior": "Brave, strategic, and always ready for the next challenge. He excels in warfare.",
+              "weakness": "Can be overly ambitious and take unnecessary risks.",
+              "strength": "Exceptional leadership skills and combat strategy."
+          }
+      },
+      {
+          "name": "Helena the Scholar",
+          "description": {
+              "appearance": "Medium height with a average build, long brown hair, and green eyes. She has a focused and determined look.",
+              "attire": "Wears period-appropriate scholarly clothing. Often seen with books and scrolls.",
+              "likes": "Knowledge, learning, and teaching.",
+              "dislikes": "Ignorance, superstition, and apathy.",
+              "behavior": "Intelligent, curious, and dedicated to her studies. She is a brilliant scholar.",
+              "weakness": "Can be overly focused on her work and neglect personal relationships.",
+              "strength": "Exceptional knowledge and research skills."
+          }
+      },
+      {
+          "name": "Ragnar the Viking",
+          "description": {
+              "appearance": "Tall and muscular with long blonde hair and brown eyes. He has a fierce and commanding presence.",
+              "attire": "Wears Viking armor with a helmet. Often carries a sword and shield.",
+              "likes": "Combat, honor, and exploring new lands.",
+              "dislikes": "Cowardice, betrayal, and injustice.",
+              "behavior": "Brave, strategic, and always ready for the next challenge. He excels in warfare.",
+              "weakness": "Can be overly ambitious and take unnecessary risks.",
+              "strength": "Exceptional leadership skills and combat strategy."
+          }
+      },
+      {
+          "name": "Lady Arabella of Kent",
+          "description": {
+              "appearance": "Slender and graceful with long auburn hair and green eyes. She has a regal and refined look.",
+              "attire": "Wears elegant gowns with intricate embroidery. Often seen with a fan and a book.",
+              "likes": "Courtly manners, literature, and music.",
+              "dislikes": "Rudeness, ignorance, and deceit.",
+              "behavior": "Intelligent, cultured, and compassionate. She values knowledge and justice.",
+              "weakness": "Can be overly trusting and naive.",
+              "strength": "Great at diplomacy and understanding complex social dynamics."
+          }
+      }
+  ],  
+  "romance": [
+      {
+          "name": "Emma Heart",
+          "description": {
+              "appearance": "Slender and elegant with long blonde hair and brown eyes. She has a warm and inviting smile.",
+              "attire": "Wears chic and stylish outfits, often with floral patterns. Always carries a notebook.",
+              "likes": "Writing love stories, romantic dinners, and flowers.",
+              "dislikes": "Dishonesty, rudeness, and loneliness.",
+              "behavior": "Gentle, caring, and passionate. She believes in true love.",
+              "weakness": "Can be overly idealistic and sensitive.",
+              "strength": "Great at understanding and expressing emotions."
+          }
+      },
+      {
+          "name": "Lucas Charming",
+          "description": {
+              "appearance": "Medium height and average build with short brown hair and green eyes. He has a charming and confident demeanor.",
+              "attire": "Wears casual yet stylish clothing, often with a blazer. Always has a bouquet of flowers.",
+              "likes": "Romantic gestures, candlelight dinners, and surprise gifts.",
+              "dislikes": "Indifference, insensitivity, and routine.",
+              "behavior": "Charismatic, romantic, and attentive. He loves to make grand gestures.",
+              "weakness": "Can be overly charming and sometimes superficial.",
+              "strength": "Excellent at making people feel special and loved."
+          }
+      },
+      {
+          "name": "Isabella Rose",
+          "description": {
+              "appearance": "Petite with long red hair and hazel eyes. She has a kind and approachable demeanor.",
+              "attire": "Wears vintage-inspired clothing, often with lace and delicate patterns. Always carries a notebook.",
+              "likes": "Writing poetry, attending literary events, and gardening.",
+              "dislikes": "Rudeness, clutter, and synthetic fabrics.",
+              "behavior": "Gentle, creative, and passionate about literature. She finds beauty in the small things.",
+              "weakness": "Can be overly sensitive and easily hurt.",
+              "strength": "Great at capturing emotions and creating vivid imagery."
+          }
+      },
+      {
+          "name": "Julian Blake",
+          "description": {
+              "appearance": "Medium height with a average build, short brown hair, and brown eyes. He has a charming smile.",
+              "attire": "Wears casual yet stylish clothing, often with a touch of vintage flair. Always has a notebook and pen.",
+              "likes": "Writing, traveling, and exploring new cultures.",
+              "dislikes": "Routine, close-mindedness, and bland food.",
+              "behavior": "Curious, friendly, and loves to learn about the world. He enjoys meeting new people.",
+              "weakness": "Can be overly curious and neglect important details.",
+              "strength": "Great at weaving different cultures and experiences into his stories."
+          }
+      },
+      {
+          "name": "Victoria Steele",
+          "description": {
+              "appearance": "Medium height and average build with short blonde hair and brown eyes. She has a confident demeanor.",
+              "attire": "Wears practical yet stylish clothing, including blazers and jeans. Often carries a laptop.",
+              "likes": "Writing thrillers, solving puzzles, and attending book signings.",
+              "dislikes": "Boredom, dishonesty, and lack of ambition.",
+              "behavior": "Determined, resourceful, and always ready for a challenge. She enjoys crafting intricate plots.",
+              "weakness": "Can be overly focused on work and neglect her personal life.",
+              "strength": "Excellent at creating suspense and keeping readers on edge."
+          }
+      },
+      {
+          "name": "Oliver Swift",
+          "description": {
+              "appearance": "Tall and full-figured with short black hair and brown eyes. He has a mysterious aura.",
+              "attire": "Wears casual clothing, often with a touch of bohemian style. Always carries a camera.",
+              "likes": "Writing, photography, and exploring abandoned places.",
+              "dislikes": "Routine, crowded places, and artificial environments.",
+              "behavior": "Creative, introspective, and loves to capture the essence of forgotten places.",
+              "weakness": "Can be overly focused on his creative pursuits and neglect practical matters.",
+              "strength": "Great at creating atmospheric and evocative descriptions."
+          }
+      },
+      {
+          "name": "Lydia Black",
+          "description": {
+              "appearance": "Medium height with a average build, long black hair, and green eyes. She has a mysterious aura.",
+              "attire": "Wears elegant, dark clothing, often with intricate patterns. Always carries a leather-bound notebook.",
+              "likes": "Writing gothic novels, exploring old libraries, and attending literary events.",
+              "dislikes": "Bright lights, loud noises, and superficial conversations.",
+              "behavior": "Intelligent, introspective, and passionate about literature. She enjoys quiet moments and deep discussions.",
+              "weakness": "Can be overly reserved and hesitant to take risks.",
+              "strength": "Great at creating atmospheric and evocative descriptions."
+          }
+      },
+      {
+          "name": "Nathan White",
+          "description": {
+              "appearance": "Tall and full-figured with short brown hair and brown eyes. He has a charming smile.",
+              "attire": "Wears casual yet stylish clothing, often with a touch of vintage flair. Always has a notebook and pen.",
+              "likes": "Writing, traveling, and exploring new cultures.",
+              "dislikes": "Routine, close-mindedness, and bland food.",
+              "behavior": "Curious, friendly, and loves to learn about the world. He enjoys meeting new people.",
+              "weakness": "Can be overly curious and neglect important details.",
+              "strength": "Great at weaving different cultures and experiences into his stories."
+          }
+      },
+      {
+          "name": "Fiona Lake",
+          "description": {
+              "appearance": "Petite with long blonde hair and brown eyes. She has a kind and approachable demeanor.",
+              "attire": "Wears vintage-inspired clothing, often with lace and delicate patterns. Always carries a notebook.",
+              "likes": "Writing poetry, attending literary events, and gardening.",
+              "dislikes": "Rudeness, clutter, and synthetic fabrics.",
+              "behavior": "Gentle, creative, and passionate about literature. She finds beauty in the small things.",
+              "weakness": "Can be overly sensitive and easily hurt.",
+              "strength": "Great at capturing emotions and creating vivid imagery."
+          }
+      },
+      {
+          "name": "George Stone",
+          "description": {
+              "appearance": "Tall and broad-shouldered with short blonde hair and brown eyes. He has a rugged look.",
+              "attire": "Wears practical travel gear, including a utility jacket, jeans, and hiking boots. Often carries a map and compass.",
+              "likes": "Exploring remote places, learning new languages, and survival challenges.",
+              "dislikes": "Routine, being indoors, and dishonesty.",
+              "behavior": "Adventurous, resourceful, and always ready for the next challenge.",
+              "weakness": "Can be overly confident and take unnecessary risks.",
+              "strength": "Great at navigating and surviving in challenging environments."
+          }
+      }
+  ],
+  "coming of age": [
+      {
+          "name": "Ethan Brooks",
+          "description": {
+              "appearance": "Medium height with a average build, short brown hair, and brown eyes. He has a youthful and determined look.",
+              "attire": "Wears casual clothing, often with a t-shirt and jeans. Always carries a skateboard.",
+              "likes": "Skateboarding, video games, and hanging out with friends.",
+              "dislikes": "Rules, routine, and being told what to do.",
+              "behavior": "Energetic, curious, and always ready for an adventure.",
+              "weakness": "Can be rebellious and struggle with authority.",
+              "strength": "Great at making friends and finding his own path."
+          }
+      },
+      {
+          "name": "Mia Parker",
+          "description": {
+              "appearance": "Petite with long blonde hair and green eyes. She has a cheerful and optimistic demeanor.",
+              "attire": "Wears casual, colorful clothing, often with a touch of bohemian style. Always has a journal.",
+              "likes": "Writing, exploring nature, and photography.",
+              "dislikes": "Negativity, dishonesty, and being confined indoors.",
+              "behavior": "Creative, adventurous, and always sees the bright side of things.",
+              "weakness": "Can be overly idealistic and sensitive.",
+              "strength": "Great at expressing herself and capturing moments."
+          }
+      },
+      {
+          "name": "Alex Rivers",
+          "description": {
+              "appearance": "Tall and full-figured with short black hair and dark eyes. He has a serious and introspective look.",
+              "attire": "Wears casual clothing, often with a hoodie and jeans. Always carries a notebook.",
+              "likes": "Writing, reading, and playing guitar.",
+              "dislikes": "Crowds, noise, and superficial conversations.",
+              "behavior": "Quiet, thoughtful, and deeply passionate about his interests.",
+              "weakness": "Can be overly introverted and struggle with social interactions.",
+              "strength": "Great at understanding and expressing deep emotions."
+          }
+      },
+      {
+          "name": "Lila Thompson",
+          "description": {
+              "appearance": "Medium height with a average build, long black hair, and brown eyes. She has a sporty and determined look.",
+              "attire": "Wears athletic clothing, often with a tank top and shorts. Always carries a water bottle.",
+              "likes": "Sports, hiking, and staying active.",
+              "dislikes": "Laziness, dishonesty, and being idle.",
+              "behavior": "Energetic, driven, and always ready for the next challenge.",
+              "weakness": "Can be overly competitive and hard on herself.",
+              "strength": "Great at pushing her limits and inspiring others."
+          }
+      },
+      {
+          "name": "Sam Green",
+          "description": {
+              "appearance": "Medium height with a average build, short blonde hair, and brown eyes. He has a friendly and approachable demeanor.",
+              "attire": "Wears casual clothing, often with a t-shirt and jeans. Always carries a backpack.",
+              "likes": "Exploring new places, meeting new people, and trying new things.",
+              "dislikes": "Routine, close-mindedness, and negativity.",
+              "behavior": "Friendly, curious, and always ready for an adventure.",
+              "weakness": "Can be overly trusting and naive.",
+              "strength": "Great at making friends and adapting to new situations."
+          }
+      },
+      {
+          "name": "Sophia Reed",
+          "description": {
+              "appearance": "Medium height with a average build, long black hair, and green eyes. She has a focused and determined look.",
+              "attire": "Wears casual clothing, often with a t-shirt and jeans. Always carries a notebook.",
+              "likes": "Studying, reading, and learning new things.",
+              "dislikes": "Ignorance, laziness, and distractions.",
+              "behavior": "Intelligent, driven, and always eager to learn.",
+              "weakness": "Can be overly focused on her goals and neglect other aspects of life.",
+              "strength": "Great at understanding complex concepts and achieving her goals."
+          }
+      },
+      {
+          "name": "Jake Miller",
+          "description": {
+              "appearance": "Tall and full-figured with short brown hair and brown eyes. He has a laid-back and friendly demeanor.",
+              "attire": "Wears casual clothing, often with a t-shirt and jeans. Always carries a skateboard.",
+              "likes": "Skateboarding, playing video games, and hanging out with friends.",
+              "dislikes": "Rules, routine, and being told what to do.",
+              "behavior": "Energetic, curious, and always ready for an adventure.",
+              "weakness": "Can be rebellious and struggle with authority.",
+              "strength": "Great at making friends and finding his own path."
+          }
+      },
+      {
+          "name": "Emma Harris",
+          "description": {
+              "appearance": "Petite with long brown hair and hazel eyes. She has a cheerful and optimistic demeanor.",
+              "attire": "Wears casual, colorful clothing, often with a touch of bohemian style. Always has a journal.",
+              "likes": "Writing, exploring nature, and photography.",
+              "dislikes": "Negativity, dishonesty, and being confined indoors.",
+              "behavior": "Creative, adventurous, and always sees the bright side of things.",
+              "weakness": "Can be overly idealistic and sensitive.",
+              "strength": "Great at expressing herself and capturing moments."
+          }
+      },
+      {
+          "name": "Liam Davis",
+          "description": {
+              "appearance": "Tall and full-figured with short black hair and dark eyes. He has a serious and introspective look.",
+              "attire": "Wears casual clothing, often with a hoodie and jeans. Always carries a notebook.",
+              "likes": "Writing, reading, and playing guitar.",
+              "dislikes": "Crowds, noise, and superficial conversations.",
+              "behavior": "Quiet, thoughtful, and deeply passionate about his interests.",
+              "weakness": "Can be overly introverted and struggle with social interactions.",
+              "strength": "Great at understanding and expressing deep emotions."
+          }
+      },
+      {
+          "name": "Ella Johnson",
+          "description": {
+              "appearance": "Medium height with a average build, long blonde hair, and brown eyes. She has a sporty and determined look.",
+              "attire": "Wears athletic clothing, often with a tank top and shorts. Always carries a water bottle.",
+              "likes": "Sports, hiking, and staying active.",
+              "dislikes": "Laziness, dishonesty, and being idle.",
+              "behavior": "Energetic, driven, and always ready for the next challenge.",
+              "weakness": "Can be overly competitive and hard on herself.",
+              "strength": "Great at pushing her limits and inspiring others."
+          }
+      }
+  ],
+  "thriller": [
+      {
+          "name": "Agent Jack Steel",
+          "description": {
+              "appearance": "Tall and muscular with short black hair and piercing brown eyes. He has a confident and commanding presence.",
+              "attire": "Wears a sleek, dark suit with a concealed weapon. Often carries a briefcase.",
+              "likes": "Solving crimes, catching criminals, and high-stakes missions.",
+              "dislikes": "Corruption, betrayal, and failure.",
+              "behavior": "Brave, intelligent, and always ready for action. He thrives under pressure.",
+              "weakness": "Can be overly confident and take unnecessary risks.",
+              "strength": "Exceptional combat skills and strategic thinking."
+          }
+      },
+      {
+          "name": "Detective Sarah Blake",
+          "description": {
+              "appearance": "Medium height with a average build, short blonde hair, and green eyes. She has a sharp and focused look.",
+              "attire": "Wears a tailored suit with a concealed weapon. Often carries a notebook.",
+              "likes": "Solving mysteries, catching criminals, and justice.",
+              "dislikes": "Corruption, dishonesty, and inefficiency.",
+              "behavior": "Intelligent, determined, and resourceful. She is excellent at piecing together clues.",
+              "weakness": "Can be overly focused on work and neglect personal life.",
+              "strength": "Great at uncovering hidden clues and solving complex cases."
+          }
+      },
+      {
+          "name": "Ethan Chase",
+          "description": {
+              "appearance": "Tall and full-figured with short brown hair and dark eyes. He has a serious and determined look.",
+              "attire": "Wears a dark trench coat and a hat. Often carries a briefcase and a weapon.",
+              "likes": "Investigating crimes, uncovering secrets, and justice.",
+              "dislikes": "Corruption, betrayal, and loose ends.",
+              "behavior": "Observant, intelligent, and methodical. He is dedicated to solving mysteries.",
+              "weakness": "Can be overly focused on work and neglect personal relationships.",
+              "strength": "Exceptional at solving puzzles and uncovering hidden truths."
+          }
+      },
+      {
+          "name": "Lena Quinn",
+          "description": {
+              "appearance": "Slender and agile with long black hair and brown eyes. She has a mysterious and determined look.",
+              "attire": "Wears dark, practical clothing with a concealed weapon. Often carries a notebook.",
+              "likes": "Investigating mysteries, uncovering secrets, and justice.",
+              "dislikes": "Corruption, dishonesty, and loose ends.",
+              "behavior": "Intelligent, resourceful, and always ready for a challenge. She is dedicated to solving mysteries.",
+              "weakness": "Can be overly focused on work and neglect personal life.",
+              "strength": "Great at uncovering hidden clues and solving complex cases."
+          }
+      },
+      {
+          "name": "Alex Hunter",
+          "description": {
+              "appearance": "Tall and muscular with short black hair and piercing brown eyes. He has a confident and commanding presence.",
+              "attire": "Wears a sleek, dark suit with a concealed weapon. Often carries a briefcase.",
+              "likes": "Solving crimes, catching criminals, and high-stakes missions.",
+              "dislikes": "Corruption, betrayal, and failure.",
+              "behavior": "Brave, intelligent, and always ready for action. He thrives under pressure.",
+              "weakness": "Can be overly confident and take unnecessary risks.",
+              "strength": "Exceptional combat skills and strategic thinking."
+          }
+      },
+      {
+          "name": "Detective Emma Stone",
+          "description": {
+              "appearance": "Medium height with a average build, short blonde hair, and green eyes. She has a sharp and focused look.",
+              "attire": "Wears a tailored suit with a concealed weapon. Often carries a notebook.",
+              "likes": "Solving mysteries, catching criminals, and justice.",
+              "dislikes": "Corruption, dishonesty, and inefficiency.",
+              "behavior": "Intelligent, determined, and resourceful. She is excellent at piecing together clues.",
+              "weakness": "Can be overly focused on work and neglect personal life.",
+              "strength": "Great at uncovering hidden clues and solving complex cases."
+          }
+      },
+      {
+          "name": "Agent Max Blade",
+          "description": {
+              "appearance": "Tall and muscular with short black hair and piercing brown eyes. He has a confident and commanding presence.",
+              "attire": "Wears a sleek, dark suit with a concealed weapon. Often carries a briefcase.",
+              "likes": "Solving crimes, catching criminals, and high-stakes missions.",
+              "dislikes": "Corruption, betrayal, and failure.",
+              "behavior": "Brave, intelligent, and always ready for action. He thrives under pressure.",
+              "weakness": "Can be overly confident and take unnecessary risks.",
+              "strength": "Exceptional combat skills and strategic thinking."
+          }
+      },
+      {
+          "name": "Ethan Black",
+          "description": {
+              "appearance": "Tall and full-figured with short brown hair and dark eyes. He has a serious and determined look.",
+              "attire": "Wears a dark trench coat and a hat. Often carries a briefcase and a weapon.",
+              "likes": "Investigating crimes, uncovering secrets, and justice.",
+              "dislikes": "Corruption, betrayal, and loose ends.",
+              "behavior": "Observant, intelligent, and methodical. He is dedicated to solving mysteries.",
+              "weakness": "Can be overly focused on work and neglect personal relationships.",
+              "strength": "Exceptional at solving puzzles and uncovering hidden truths."
+          }
+      },
+      {
+          "name": "Lena White",
+          "description": {
+              "appearance": "Slender and agile with long black hair and brown eyes. She has a mysterious and determined look.",
+              "attire": "Wears dark, practical clothing with a concealed weapon. Often carries a notebook.",
+              "likes": "Investigating mysteries, uncovering secrets, and justice.",
+              "dislikes": "Corruption, dishonesty, and loose ends.",
+              "behavior": "Intelligent, resourceful, and always ready for a challenge. She is dedicated to solving mysteries.",
+              "weakness": "Can be overly focused on work and neglect personal life.",
+              "strength": "Great at uncovering hidden clues and solving complex cases."
+          }
+      },
+      {
+          "name": "Alex Stone",
+          "description": {
+              "appearance": "Tall and muscular with short black hair and piercing brown eyes. He has a confident and commanding presence.",
+              "attire": "Wears a sleek, dark suit with a concealed weapon. Often carries a briefcase.",
+              "likes": "Solving crimes, catching criminals, and high-stakes missions.",
+              "dislikes": "Corruption, betrayal, and failure.",
+              "behavior": "Brave, intelligent, and always ready for action. He thrives under pressure.",
+              "weakness": "Can be overly confident and take unnecessary risks.",
+              "strength": "Exceptional combat skills and strategic thinking."
+          }
+      }
+  ],
+  "comedy": [
+      {
+          "name": "Charlie Jester",
+          "description": {
+              "appearance": "Medium height with a average build, short brown hair, and brown eyes. He has a mischievous smile.",
+              "attire": "Wears colorful, quirky clothing, often with a touch of humor. Always carries a joke book.",
+              "likes": "Making people laugh, playing pranks, and telling jokes.",
+              "dislikes": "Seriousness, boredom, and negativity.",
+              "behavior": "Cheerful, witty, and always ready to make others smile.",
+              "weakness": "Can be overly silly and not taken seriously.",
+              "strength": "Great at lifting people's spirits and creating a fun atmosphere."
+          }
+      },
+      {
+          "name": "Lola Trickster",
+          "description": {
+              "appearance": "Petite with long blonde hair and green eyes. She has a playful and energetic demeanor.",
+              "attire": "Wears colorful, playful clothing, often with funny accessories. Always carries a whoopee cushion.",
+              "likes": "Playing pranks, making people laugh, and creating chaos.",
+              "dislikes": "Seriousness, boredom, and negativity.",
+              "behavior": "Cheerful, witty, and always ready to make others smile.",
+              "weakness": "Can be overly silly and not taken seriously.",
+              "strength": "Great at lifting people's spirits and creating a fun atmosphere."
+          }
+      },
+      {
+          "name": "Max Joker",
+          "description": {
+              "appearance": "Tall and full-figured with short black hair and dark eyes. He has a mischievous smile.",
+              "attire": "Wears colorful, quirky clothing, often with a touch of humor. Always carries a joke book.",
+              "likes": "Making people laugh, playing pranks, and telling jokes.",
+              "dislikes": "Seriousness, boredom, and negativity.",
+              "behavior": "Cheerful, witty, and always ready to make others smile.",
+              "weakness": "Can be overly silly and not taken seriously.",
+              "strength": "Great at lifting people's spirits and creating a fun atmosphere."
+          }
+      },
+      {
+          "name": "Ellie Clown",
+          "description": {
+              "appearance": "Slender and agile with long black hair and brown eyes. She has a playful and energetic demeanor.",
+              "attire": "Wears colorful, playful clothing, often with funny accessories. Always carries a whoopee cushion.",
+              "likes": "Playing pranks, making people laugh, and creating chaos.",
+              "dislikes": "Seriousness, boredom, and negativity.",
+              "behavior": "Cheerful, witty, and always ready to make others smile.",
+              "weakness": "Can be overly silly and not taken seriously.",
+              "strength": "Great at lifting people's spirits and creating a fun atmosphere."
+          }
+      },
+      {
+          "name": "Leo Trick",
+          "description": {
+              "appearance": "Medium height with a average build, short brown hair, and brown eyes. He has a mischievous smile.",
+              "attire": "Wears colorful, quirky clothing, often with a touch of humor. Always carries a joke book.",
+              "likes": "Making people laugh, playing pranks, and telling jokes.",
+              "dislikes": "Seriousness, boredom, and negativity.",
+              "behavior": "Cheerful, witty, and always ready to make others smile.",
+              "weakness": "Can be overly silly and not taken seriously.",
+              "strength": "Great at lifting people's spirits and creating a fun atmosphere."
+          }
+      },
+      {
+          "name": "Lily Comedian",
+          "description": {
+              "appearance": "Petite with long blonde hair and green eyes. She has a playful and energetic demeanor.",
+              "attire": "Wears colorful, playful clothing, often with funny accessories. Always carries a whoopee cushion.",
+              "likes": "Playing pranks, making people laugh, and creating chaos.",
+              "dislikes": "Seriousness, boredom, and negativity.",
+              "behavior": "Cheerful, witty, and always ready to make others smile.",
+              "weakness": "Can be overly silly and not taken seriously.",
+              "strength": "Great at lifting people's spirits and creating a fun atmosphere."
+          }
+      },
+      {
+          "name": "Milo Prankster",
+          "description": {
+              "appearance": "Tall and full-figured with short black hair and dark eyes. He has a mischievous smile.",
+              "attire": "Wears colorful, quirky clothing, often with a touch of humor. Always carries a joke book.",
+              "likes": "Making people laugh, playing pranks, and telling jokes.",
+              "dislikes": "Seriousness, boredom, and negativity.",
+              "behavior": "Cheerful, witty, and always ready to make others smile.",
+              "weakness": "Can be overly silly and not taken seriously.",
+              "strength": "Great at lifting people's spirits and creating a fun atmosphere."
+          }
+      },
+      {
+          "name": "Ella Giggle",
+          "description": {
+              "appearance": "Slender and agile with long black hair and brown eyes. She has a playful and energetic demeanor.",
+              "attire": "Wears colorful, playful clothing, often with funny accessories. Always carries a whoopee cushion.",
+              "likes": "Playing pranks, making people laugh, and creating chaos.",
+              "dislikes": "Seriousness, boredom, and negativity.",
+              "behavior": "Cheerful, witty, and always ready to make others smile.",
+              "weakness": "Can be overly silly and not taken seriously.",
+              "strength": "Great at lifting people's spirits and creating a fun atmosphere."
+          }
+      },
+      {
+          "name": "Max Laugh",
+          "description": {
+              "appearance": "Medium height with a average build, short brown hair, and brown eyes. He has a mischievous smile.",
+              "attire": "Wears colorful, quirky clothing, often with a touch of humor. Always carries a joke book.",
+              "likes": "Making people laugh, playing pranks, and telling jokes.",
+              "dislikes": "Seriousness, boredom, and negativity.",
+              "behavior": "Cheerful, witty, and always ready to make others smile.",
+              "weakness": "Can be overly silly and not taken seriously.",
+              "strength": "Great at lifting people's spirits and creating a fun atmosphere."
+          }
+      },
+      {
+          "name": "Lola Fun",
+          "description": {
+              "appearance": "Petite with long blonde hair and green eyes. She has a playful and energetic demeanor.",
+              "attire": "Wears colorful, playful clothing, often with funny accessories. Always carries a whoopee cushion.",
+              "likes": "Playing pranks, making people laugh, and creating chaos.",
+              "dislikes": "Seriousness, boredom, and negativity.",
+              "behavior": "Cheerful, witty, and always ready to make others smile.",
+              "weakness": "Can be overly silly and not taken seriously.",
+              "strength": "Great at lifting people's spirits and creating a fun atmosphere."
+          }
+      }
+  ],
+  "dystopian": [
+      {
+          "name": "Raven Black",
+          "description": {
+              "appearance": "Tall and full-figured with short black hair and piercing green eyes. He has a determined and rebellious look.",
+              "attire": "Wears dark, rugged clothing suitable for survival. Often carries a weapon.",
+              "likes": "Freedom, justice, and fighting against oppression.",
+              "dislikes": "Tyranny, injustice, and conformity.",
+              "behavior": "Brave, resourceful, and always ready to stand up for what's right.",
+              "weakness": "Can be overly rebellious and take unnecessary risks.",
+              "strength": "Exceptional survival skills and leadership qualities."
+          }
+      },
+      {
+          "name": "Luna Gray",
+          "description": {
+              "appearance": "Slender and agile with long black hair and brown eyes. She has a mysterious and determined look.",
+              "attire": "Wears dark, practical clothing with a hood. Often carries a weapon.",
+              "likes": "Freedom, justice, and fighting against oppression.",
+              "dislikes": "Tyranny, injustice, and conformity.",
+              "behavior": "Intelligent, resourceful, and always ready for a challenge.",
+              "weakness": "Can be overly secretive and distrustful.",
+              "strength": "Great at stealth and infiltration."
+          }
+      },
+      {
+          "name": "Max Steel",
+          "description": {
+              "appearance": "Tall and muscular with short black hair and piercing brown eyes. He has a determined and rebellious look.",
+              "attire": "Wears dark, rugged clothing suitable for survival. Often carries a weapon.",
+              "likes": "Freedom, justice, and fighting against oppression.",
+              "dislikes": "Tyranny, injustice, and conformity.",
+              "behavior": "Brave, resourceful, and always ready to stand up for what's right.",
+              "weakness": "Can be overly rebellious and take unnecessary risks.",
+              "strength": "Exceptional survival skills and leadership qualities."
+          }
+      },
+      {
+          "name": "Ella Night",
+          "description": {
+              "appearance": "Slender and agile with long black hair and brown eyes. She has a mysterious and determined look.",
+              "attire": "Wears dark, practical clothing with a hood. Often carries a weapon.",
+              "likes": "Freedom, justice, and fighting against oppression.",
+              "dislikes": "Tyranny, injustice, and conformity.",
+              "behavior": "Intelligent, resourceful, and always ready for a challenge.",
+              "weakness": "Can be overly secretive and distrustful.",
+              "strength": "Great at stealth and infiltration."
+          }
+      },
+      {
+          "name": "Leo Dark",
+          "description": {
+              "appearance": "Tall and full-figured with short black hair and piercing green eyes. He has a determined and rebellious look.",
+              "attire": "Wears dark, rugged clothing suitable for survival. Often carries a weapon.",
+              "likes": "Freedom, justice, and fighting against oppression.",
+              "dislikes": "Tyranny, injustice, and conformity.",
+              "behavior": "Brave, resourceful, and always ready to stand up for what's right.",
+              "weakness": "Can be overly rebellious and take unnecessary risks.",
+              "strength": "Exceptional survival skills and leadership qualities."
+          }
+      },
+      {
+          "name": "Lily Ash",
+          "description": {
+              "appearance": "Slender and agile with long black hair and brown eyes. She has a mysterious and determined look.",
+              "attire": "Wears dark, practical clothing with a hood. Often carries a weapon.",
+              "likes": "Freedom, justice, and fighting against oppression.",
+              "dislikes": "Tyranny, injustice, and conformity.",
+              "behavior": "Intelligent, resourceful, and always ready for a challenge.",
+              "weakness": "Can be overly secretive and distrustful.",
+              "strength": "Great at stealth and infiltration."
+          }
+      },
+      {
+          "name": "Milo Shadow",
+          "description": {
+              "appearance": "Tall and full-figured with short black hair and piercing green eyes. He has a determined and rebellious look.",
+              "attire": "Wears dark, rugged clothing suitable for survival. Often carries a weapon.",
+              "likes": "Freedom, justice, and fighting against oppression.",
+              "dislikes": "Tyranny, injustice, and conformity.",
+              "behavior": "Brave, resourceful, and always ready to stand up for what's right.",
+              "weakness": "Can be overly rebellious and take unnecessary risks.",
+              "strength": "Exceptional survival skills and leadership qualities."
+          }
+      },
+      {
+          "name": "Ella Flame",
+          "description": {
+              "appearance": "Slender and agile with long black hair and brown eyes. She has a mysterious and determined look.",
+              "attire": "Wears dark, practical clothing with a hood. Often carries a weapon.",
+              "likes": "Freedom, justice, and fighting against oppression.",
+              "dislikes": "Tyranny, injustice, and conformity.",
+              "behavior": "Intelligent, resourceful, and always ready for a challenge.",
+              "weakness": "Can be overly secretive and distrustful.",
+              "strength": "Great at stealth and infiltration."
+          }
+      },
+      {
+          "name": "Max Rebel",
+          "description": {
+              "appearance": "Tall and muscular with short black hair and piercing brown eyes. He has a determined and rebellious look.",
+              "attire": "Wears dark, rugged clothing suitable for survival. Often carries a weapon.",
+              "likes": "Freedom, justice, and fighting against oppression.",
+              "dislikes": "Tyranny, injustice, and conformity.",
+              "behavior": "Brave, resourceful, and always ready to stand up for what's right.",
+              "weakness": "Can be overly rebellious and take unnecessary risks.",
+              "strength": "Exceptional survival skills and leadership qualities."
+          }
+      },
+      {
+          "name": "Luna Star",
+          "description": {
+              "appearance": "Slender and agile with long black hair and brown eyes. She has a mysterious and determined look.",
+              "attire": "Wears dark, practical clothing with a hood. Often carries a weapon.",
+              "likes": "Freedom, justice, and fighting against oppression.",
+              "dislikes": "Tyranny, injustice, and conformity.",
+              "behavior": "Intelligent, resourceful, and always ready for a challenge.",
+              "weakness": "Can be overly secretive and distrustful.",
+              "strength": "Great at stealth and infiltration."
+          }
+      }
+  ],
+  "mythology": [
+      {
+          "name": "Zeus Thunderbolt",
+          "description": {
+              "appearance": "Tall and muscular with long white hair and a beard. He has piercing brown eyes and a commanding presence.",
+              "attire": "Wears a white toga with golden accents. Often carries a lightning bolt.",
+              "likes": "Power, justice, and ruling the gods.",
+              "dislikes": "Betrayal, dishonesty, and chaos.",
+              "behavior": "Wise, powerful, and a natural leader. He commands respect.",
+              "weakness": "Can be overly proud and wrathful.",
+              "strength": "Unmatched strength and control over lightning."
+          }
+      },
+      {
+          "name": "Athena Wise",
+          "description": {
+              "appearance": "Slender and graceful with long brown hair and grey eyes. She has a calm and wise demeanor.",
+              "attire": "Wears a white gown with a golden belt. Often carries a shield and spear.",
+              "likes": "Wisdom, strategy, and protecting the innocent.",
+              "dislikes": "Ignorance, injustice, and violence.",
+              "behavior": "Intelligent, strategic, and compassionate. She values knowledge and justice.",
+              "weakness": "Can be overly cautious and hesitant to take risks.",
+              "strength": "Great at strategy and combat."
+          }
+      },
+      {
+          "name": "Hercules Strong",
+          "description": {
+              "appearance": "Tall and muscular with short brown hair and brown eyes. He has a heroic and determined look.",
+              "attire": "Wears a lion skin and a tunic. Often carries a club.",
+              "likes": "Strength, bravery, and protecting the weak.",
+              "dislikes": "Cowardice, betrayal, and injustice.",
+              "behavior": "Brave, strong, and always ready to fight for what's right.",
+              "weakness": "Can be overly confident and take unnecessary risks.",
+              "strength": "Exceptional strength and combat skills."
+          }
+      },
+      {
+          "name": "Aphrodite Love",
+          "description": {
+              "appearance": "Slender and graceful with long blonde hair and brown eyes. She has a captivating and enchanting presence.",
+              "attire": "Wears a flowing gown with a golden belt. Often carries a rose.",
+              "likes": "Love, beauty, and harmony.",
+              "dislikes": "Hatred, discord, and ugliness.",
+              "behavior": "Compassionate, loving, and always seeks to bring people together.",
+              "weakness": "Can be overly sensitive and easily hurt.",
+              "strength": "Great at inspiring love and harmony."
+          }
+      },
+      {
+          "name": "Poseidon Wave",
+          "description": {
+              "appearance": "Tall and muscular with long green hair and blue eyes. He has a commanding and mysterious presence.",
+              "attire": "Wears a blue tunic with a golden belt. Often carries a trident.",
+              "likes": "The ocean, storms, and protecting sea creatures.",
+              "dislikes": "Pollution, injustice, and confinement.",
+              "behavior": "Strong, protective, and always ready to defend his domain.",
+              "weakness": "Can be overly emotional and wrathful.",
+              "strength": "Unmatched control over water and marine life."
+          }
+      },
+      {
+          "name": "Hades Shadow",
+          "description": {
+              "appearance": "Tall and full-figured with short black hair and piercing red eyes. He has a dark and menacing presence.",
+              "attire": "Wears a black robe with a hood. Often carries a staff.",
+              "likes": "Power, wealth, and ruling the underworld.",
+              "dislikes": "Betrayal, dishonesty, and light.",
+              "behavior": "Cunning, ambitious, and always seeking more power.",
+              "weakness": "Can be overly greedy and ruthless.",
+              "strength": "Great at manipulating shadows and controlling the dead."
+          }
+      },
+      {
+          "name": "Artemis Huntress",
+          "description": {
+              "appearance": "Slender and agile with long black hair and green eyes. She has a fierce and determined look.",
+              "attire": "Wears a green tunic with a golden belt. Often carries a bow and arrows.",
+              "likes": "Hunting, nature, and protecting the innocent.",
+              "dislikes": "Cruelty, injustice, and confinement.",
+              "behavior": "Brave, resourceful, and always ready for a challenge.",
+              "weakness": "Can be overly proud and take unnecessary risks.",
+              "strength": "Exceptional archery skills and connection to nature."
+          }
+      },
+      {
+          "name": "Apollo Light",
+          "description": {
+              "appearance": "Tall and muscular with short blonde hair and blue eyes. He has a radiant and commanding presence.",
+              "attire": "Wears a white tunic with a golden belt. Often carries a lyre.",
+              "likes": "Music, poetry, and spreading light.",
+              "dislikes": "Darkness, ignorance, and discord.",
+              "behavior": "Compassionate, wise, and always seeks to bring light and knowledge.",
+              "weakness": "Can be overly proud and sensitive.",
+              "strength": "Great at inspiring creativity and spreading knowledge."
+          }
+      },
+      {
+          "name": "Dionysus Wine",
+          "description": {
+              "appearance": "Tall and full-figured with long brown hair and green eyes. He has a joyful and charismatic presence.",
+              "attire": "Wears a purple tunic with a golden belt. Often carries a cup of wine.",
+              "likes": "Wine, celebration, and spreading joy.",
+              "dislikes": "Sobriety, boredom, and conflict.",
+              "behavior": "Cheerful, charismatic, and always seeks to bring joy and celebration.",
+              "weakness": "Can be overly indulgent and irresponsible.",
+              "strength": "Great at inspiring joy and celebration."
+          }
+      },
+      {
+          "name": "Hermes Swift",
+          "description": {
+              "appearance": "Tall and full-figured with short brown hair and blue eyes. He has a quick and agile presence.",
+              "attire": "Wears a white tunic with a golden belt and winged sandals. Often carries a caduceus.",
+              "likes": "Travel, communication, and helping others.",
+              "dislikes": "Injustice, dishonesty, and confinement.",
+              "behavior": "Quick, intelligent, and always ready to help.",
+              "weakness": "Can be overly curious and take unnecessary risks.",
+              "strength": "Great at communication and travel."
+          }
+      }
+  ],
+  "biography": [
+      {
+          "name": "John Noble",
+          "description": {
+              "appearance": "Tall and dignified with short grey hair and blue eyes. He has a distinguished and charismatic presence.",
+              "attire": "Wears formal suits, often with a pocket watch. Always carries a notebook.",
+              "likes": "History, storytelling, and making a difference.",
+              "dislikes": "Injustice, ignorance, and dishonesty.",
+              "behavior": "Wise, compassionate, and always eager to share his experiences.",
+              "weakness": "Can be overly reflective and nostalgic.",
+              "strength": "Great at inspiring others and recounting his life stories."
+          }
+      },
+      {
+          "name": "Emma Grace",
+          "description": {
+              "appearance": "Slender and elegant with long blonde hair and green eyes. She has a warm and approachable demeanor.",
+              "attire": "Wears vintage-inspired clothing, often with lace and delicate patterns. Always carries a journal.",
+              "likes": "Writing, history, and inspiring others.",
+              "dislikes": "Rudeness, ignorance, and superficiality.",
+              "behavior": "Gentle, creative, and passionate about sharing her life's journey.",
+              "weakness": "Can be overly sensitive and easily hurt.",
+              "strength": "Great at capturing emotions and creating vivid imagery."
+          }
+      },
+      {
+          "name": "Robert Steel",
+          "description": {
+              "appearance": "Medium height and average build with short black hair and dark eyes. He has a serious and determined look.",
+              "attire": "Wears business attire, often with a tie. Always carries a briefcase.",
+              "likes": "Business, leadership, and making a difference.",
+              "dislikes": "Corruption, laziness, and dishonesty.",
+              "behavior": "Intelligent, driven, and always ready to share his experiences.",
+              "weakness": "Can be overly focused on work and neglect personal relationships.",
+              "strength": "Great at inspiring others and recounting his professional journey."
+          }
+      },
+      {
+          "name": "Sophia King",
+          "description": {
+              "appearance": "Petite with long brown hair and hazel eyes. She has a kind and approachable demeanor.",
+              "attire": "Wears vintage-inspired clothing, often with lace and delicate patterns. Always carries a notebook.",
+              "likes": "Writing, history, and inspiring others.",
+              "dislikes": "Rudeness, ignorance, and superficiality.",
+              "behavior": "Gentle, creative, and passionate about sharing her life's journey.",
+              "weakness": "Can be overly sensitive and easily hurt.",
+              "strength": "Great at capturing emotions and creating vivid imagery."
+          }
+      },
+      {
+          "name": "James Harper",
+          "description": {
+              "appearance": "Tall and full-figured with short brown hair and blue eyes. He has a charming smile.",
+              "attire": "Wears casual yet stylish clothing, often with a touch of vintage flair. Always has a notebook and pen.",
+              "likes": "Writing, traveling, and exploring new cultures.",
+              "dislikes": "Routine, close-mindedness, and bland food.",
+              "behavior": "Curious, friendly, and loves to learn about the world. He enjoys meeting new people.",
+              "weakness": "Can be overly curious and neglect important details.",
+              "strength": "Great at weaving different cultures and experiences into his stories."
+          }
+      },
+      {
+          "name": "Grace Harris",
+          "description": {
+              "appearance": "Medium height and average build with short blonde hair and blue eyes. She has a confident demeanor.",
+              "attire": "Wears practical yet stylish clothing, including blazers and jeans. Often carries a laptop.",
+              "likes": "Writing, traveling, and inspiring others.",
+              "dislikes": "Rudeness, dishonesty, and superficiality.",
+              "behavior": "Determined, resourceful, and always ready for a challenge. She enjoys crafting intricate plots.",
+              "weakness": "Can be overly focused on work and neglect her personal life.",
+              "strength": "Excellent at creating suspense and keeping readers on edge."
+          }
+      },
+      {
+          "name": "Oliver Frost",
+          "description": {
+              "appearance": "Tall and full-figured with short black hair and brown eyes. He has a mysterious aura.",
+              "attire": "Wears casual clothing, often with a touch of bohemian style. Always carries a camera.",
+              "likes": "Writing, photography, and exploring abandoned places.",
+              "dislikes": "Routine, crowded places, and artificial environments.",
+              "behavior": "Creative, introspective, and loves to capture the essence of forgotten places.",
+              "weakness": "Can be overly focused on his creative pursuits and neglect practical matters.",
+              "strength": "Great at creating atmospheric and evocative descriptions."
+          }
+      },
+      {
+          "name": "Lydia Moore",
+          "description": {
+              "appearance": "Medium height with a average build, long black hair, and green eyes. She has a mysterious aura.",
+              "attire": "Wears elegant, dark clothing, often with intricate patterns. Always carries a leather-bound notebook.",
+              "likes": "Writing gothic novels, exploring old libraries, and attending literary events.",
+              "dislikes": "Bright lights, loud noises, and superficial conversations.",
+              "behavior": "Intelligent, introspective, and passionate about literature. She enjoys quiet moments and deep discussions.",
+              "weakness": "Can be overly reserved and hesitant to take risks.",
+              "strength": "Great at creating atmospheric and evocative descriptions."
+          }
+      },
+      {
+          "name": "Nathan Blake",
+          "description": {
+              "appearance": "Tall and full-figured with short brown hair and blue eyes. He has a charming smile.",
+              "attire": "Wears casual yet stylish clothing, often with a touch of vintage flair. Always has a notebook and pen.",
+              "likes": "Writing, traveling, and exploring new cultures.",
+              "dislikes": "Routine, close-mindedness, and bland food.",
+              "behavior": "Curious, friendly, and loves to learn about the world. He enjoys meeting new people.",
+              "weakness": "Can be overly curious and neglect important details.",
+              "strength": "Great at weaving different cultures and experiences into his stories."
+          }
+      },
+      {
+          "name": "Fiona Clark",
+          "description": {
+              "appearance": "Petite with long blonde hair and blue eyes. She has a kind and approachable demeanor.",
+              "attire": "Wears vintage-inspired clothing, often with lace and delicate patterns. Always carries a notebook.",
+              "likes": "Writing poetry, attending literary events, and gardening.",
+              "dislikes": "Rudeness, clutter, and synthetic fabrics.",
+              "behavior": "Gentle, creative, and passionate about literature. She finds beauty in the small things.",
+              "weakness": "Can be overly sensitive and easily hurt.",
+              "strength": "Great at capturing emotions and creating vivid imagery."
+          }
+      }
+  ],
+  "folktale": [
+      {
+          "name": "Jack the Trickster",
+          "description": {
+              "appearance": "Medium height with a full-figured build, short brown hair, and mischievous green eyes.",
+              "attire": "Wears rustic clothing, often with patches. Always carries a satchel of tricks.",
+              "likes": "Playing pranks, solving puzzles, and helping the underdog.",
+              "dislikes": "Injustice, cruelty, and boredom.",
+              "behavior": "Clever, resourceful, and always ready for an adventure.",
+              "weakness": "Can be overly mischievous and get into trouble.",
+              "strength": "Great at outsmarting opponents and finding creative solutions."
+          }
+      },
+      {
+          "name": "Ella the Wise",
+          "description": {
+              "appearance": "Slender and graceful with long white hair and wise blue eyes.",
+              "attire": "Wears simple, flowing robes. Often carries a staff.",
+              "likes": "Telling stories, teaching lessons, and guiding others.",
+              "dislikes": "Ignorance, impatience, and dishonesty.",
+              "behavior": "Wise, patient, and always ready to share her knowledge.",
+              "weakness": "Can be overly cautious and slow to act.",
+              "strength": "Great at offering wisdom and foresight."
+          }
+      },
+      {
+          "name": "Finn the Brave",
+          "description": {
+              "appearance": "Tall and strong with short black hair and fearless brown eyes.",
+              "attire": "Wears rustic clothing, often with a cloak. Carries a sword.",
+              "likes": "Adventure, helping others, and defeating monsters.",
+              "dislikes": "Cowardice, injustice, and dishonesty.",
+              "behavior": "Brave, noble, and always ready to fight for what's right.",
+              "weakness": "Can be overly confident and take unnecessary risks.",
+              "strength": "Exceptional strength and bravery."
+          }
+      },
+      {
+          "name": "Luna the Enchantress",
+          "description": {
+              "appearance": "Slender and ethereal with long silver hair and sparkling blue eyes.",
+              "attire": "Wears flowing robes adorned with mystical symbols. Often carries a wand.",
+              "likes": "Magic, nature, and helping others.",
+              "dislikes": "Dark magic, cruelty, and greed.",
+              "behavior": "Compassionate, wise, and always willing to lend her magical abilities to those in need.",
+              "weakness": "Can be overly trusting and naive.",
+              "strength": "Powerful magical abilities and vast knowledge of ancient lore."
+          }
+      },
+      {
+          "name": "Ragnar the Giant",
+          "description": {
+              "appearance": "Towering and muscular with long brown hair and a thick beard. He has kind blue eyes.",
+              "attire": "Wears simple, rustic clothing. Often carries a large club.",
+              "likes": "Helping others, protecting the weak, and farming.",
+              "dislikes": "Cruelty, betrayal, and destruction.",
+              "behavior": "Gentle, kind-hearted, and always ready to help.",
+              "weakness": "Can be overly gentle and avoid confrontation.",
+              "strength": "Exceptional strength and kindness."
+          }
+      },
+      {
+          "name": "Mira the Moonlit",
+          "description": {
+              "appearance": "Slender and graceful with long black hair and glowing silver eyes.",
+              "attire": "Wears flowing robes adorned with moon motifs. Often carries a staff with a glowing crystal.",
+              "likes": "Magic, nature, and helping others.",
+              "dislikes": "Dark magic, cruelty, and greed.",
+              "behavior": "Wise, compassionate, and always willing to lend her magical abilities to those in need.",
+              "weakness": "Can be overly trusting and naive.",
+              "strength": "Powerful magical abilities and vast knowledge of ancient lore."
+          }
+      },
+      {
+          "name": "Thorne the Woodsman",
+          "description": {
+              "appearance": "Tall and muscular with short brown hair and piercing green eyes.",
+              "attire": "Wears rustic clothing and a cloak. Often carries an axe.",
+              "likes": "Nature, protecting the forest, and helping others.",
+              "dislikes": "Destruction, greed, and cruelty.",
+              "behavior": "Brave, resourceful, and always ready to protect the forest.",
+              "weakness": "Can be overly protective and distrustful of outsiders.",
+              "strength": "Exceptional strength and connection to nature."
+          }
+      },
+      {
+          "name": "Ayla the Huntress",
+          "description": {
+              "appearance": "Slender and agile with long auburn hair and sharp hazel eyes.",
+              "attire": "Wears light, flexible armor and a cloak. Carries a bow and quiver.",
+              "likes": "Hunting, protecting nature, and helping others.",
+              "dislikes": "Cruelty, greed, and injustice.",
+              "behavior": "Quick, agile, and fiercely protective of the natural world.",
+              "weakness": "Can be overly idealistic and headstrong.",
+              "strength": "Exceptional archery skills and agility."
+          }
+      },
+      {
+          "name": "Eldric the Brave",
+          "description": {
+              "appearance": "Tall and muscular with long blonde hair and blue eyes. He has a noble presence.",
+              "attire": "Wears shining armor and carries a gleaming sword. Often seen with a shield emblazoned with a lion.",
+              "likes": "Heroic quests, protecting the innocent, and defeating evil.",
+              "dislikes": "Cowardice, betrayal, and dark magic.",
+              "behavior": "Brave, honorable, and always ready to fight for justice.",
+              "weakness": "Can be overly confident and take unnecessary risks.",
+              "strength": "Exceptional strength and combat skills."
+          }
+      },
+      {
+          "name": "Luna the Enchantress",
+          "description": {
+              "appearance": "Slender and graceful with long silver hair and violet eyes. She has an ethereal beauty.",
+              "attire": "Wears flowing robes adorned with mystical symbols. Often carries a staff with a glowing crystal.",
+              "likes": "Magic, ancient lore, and helping others.",
+              "dislikes": "Dark magic, ignorance, and cruelty.",
+              "behavior": "Wise, compassionate, and always willing to lend her magical abilities to those in need.",
+              "weakness": "Can be overly trusting and naive.",
+              "strength": "Powerful magical abilities and vast knowledge of ancient lore."
+          }
+      }
+  ],  
+  "urban fantasy": [
+      {
+          "name": "Eldric the Brave",
+          "description": {
+              "appearance": "Tall and muscular with long blonde hair and blue eyes. He has a noble presence.",
+              "attire": "Wears shining armor and carries a gleaming sword. Often seen with a shield emblazoned with a lion.",
+              "likes": "Heroic quests, protecting the innocent, and defeating evil.",
+              "dislikes": "Cowardice, betrayal, and dark magic.",
+              "behavior": "Brave, honorable, and always ready to fight for justice.",
+              "weakness": "Can be overly confident and take unnecessary risks.",
+              "strength": "Exceptional strength and combat skills."
+          }
+      },
+      {
+          "name": "Luna the Enchantress",
+          "description": {
+              "appearance": "Slender and graceful with long silver hair and violet eyes. She has an ethereal beauty.",
+              "attire": "Wears flowing robes adorned with mystical symbols. Often carries a staff with a glowing crystal.",
+              "likes": "Magic, ancient lore, and helping others.",
+              "dislikes": "Dark magic, ignorance, and cruelty.",
+              "behavior": "Wise, compassionate, and always willing to lend her magical abilities to those in need.",
+              "weakness": "Can be overly trusting and naive.",
+              "strength": "Powerful magical abilities and vast knowledge of ancient lore."
+          }
+      },
+      {
+          "name": "Thorne the Shadow",
+          "description": {
+              "appearance": "Tall and full-figured with short black hair and piercing green eyes. He has a mysterious aura.",
+              "attire": "Wears dark, stealthy clothing and a cloak. Often carries a set of daggers.",
+              "likes": "Stealth missions, uncovering secrets, and treasure hunting.",
+              "dislikes": "Loud noises, bright lights, and unnecessary violence.",
+              "behavior": "Cunning, resourceful, and prefers to work from the shadows.",
+              "weakness": "Can be overly secretive and distrustful.",
+              "strength": "Exceptional at stealth and infiltration."
+          }
+      },
+      {
+          "name": "Ayla the Archer",
+          "description": {
+              "appearance": "Petite and agile with long auburn hair and hazel eyes. She has a keen, alert look.",
+              "attire": "Wears light, flexible armor and a cloak. Carries a bow and a quiver of arrows.",
+              "likes": "Archery, exploring forests, and protecting nature.",
+              "dislikes": "Destruction of nature, cruelty to animals, and injustice.",
+              "behavior": "Quick, agile, and fiercely protective of the natural world.",
+              "weakness": "Can be overly idealistic and headstrong.",
+              "strength": "Exceptional archery skills and agility."
+          }
+      },
+      {
+          "name": "Gorim the Stalwart",
+          "description": {
+              "appearance": "Short and stout with a long brown beard and deep-set brown eyes. He has a sturdy build.",
+              "attire": "Wears heavy armor and carries a large war hammer. Often seen with a shield.",
+              "likes": "Mining, crafting, and defending his homeland.",
+              "dislikes": "Cowardice, deceit, and disrespect.",
+              "behavior": "Brave, loyal, and steadfast. He is a formidable warrior.",
+              "weakness": "Can be stubborn and slow to trust outsiders.",
+              "strength": "Unmatched strength and resilience in battle."
+          }
+      },
+      {
+          "name": "Seraphina the Sorceress",
+          "description": {
+              "appearance": "Tall and elegant with long red hair and emerald green eyes. She has a commanding presence.",
+              "attire": "Wears ornate robes and a cloak adorned with mystical symbols. Carries a staff.",
+              "likes": "Studying ancient magic, casting spells, and helping others.",
+              "dislikes": "Dark magic, ignorance, and arrogance.",
+              "behavior": "Wise, powerful, and compassionate. She uses her magic for good.",
+              "weakness": "Can be overly protective and hesitant to take risks.",
+              "strength": "Powerful magical abilities and extensive knowledge of ancient lore."
+          }
+      },
+      {
+          "name": "Fenrir the Wolf",
+          "description": {
+              "appearance": "Tall and muscular with wild black hair and sharp blue eyes. He has a feral look.",
+              "attire": "Wears fur-lined clothing and carries a large axe. Often seen with a wolf companion.",
+              "likes": "Hunting, survival, and protecting his pack.",
+              "dislikes": "Injustice, betrayal, and captivity.",
+              "behavior": "Fierce, loyal, and protective. He is a skilled hunter and warrior.",
+              "weakness": "Can be overly aggressive and distrustful of strangers.",
+              "strength": "Exceptional strength and survival skills."
+          }
+      },
+      {
+          "name": "Elara the Seer",
+          "description": {
+              "appearance": "Slender and graceful with long silver hair and violet eyes. She has a mystical aura.",
+              "attire": "Wears flowing robes adorned with mystical symbols. Often carries a crystal ball.",
+              "likes": "Foretelling the future, ancient lore, and helping others.",
+              "dislikes": "Dark magic, ignorance, and cruelty.",
+              "behavior": "Wise, compassionate, and always willing to lend her abilities to those in need.",
+              "weakness": "Can be overly trusting and naive.",
+              "strength": "Powerful clairvoyant abilities and vast knowledge of ancient lore."
+          }
+      },
+      {
+          "name": "Drake the Dragon Slayer",
+          "description": {
+              "appearance": "Tall and muscular with short black hair and brown eyes. He has a determined look.",
+              "attire": "Wears sturdy armor and carries a large sword. Often seen with dragon scales as trophies.",
+              "likes": "Heroic quests, protecting the innocent, and defeating dragons.",
+              "dislikes": "Cowardice, betrayal, and dark magic.",
+              "behavior": "Brave, honorable, and always ready to fight for justice.",
+              "weakness": "Can be overly confident and take unnecessary risks.",
+              "strength": "Exceptional strength and combat skills."
+          }
+      },
+      {
+          "name": "Mira the Moonlight",
+          "description": {
+              "appearance": "Slender and graceful with long black hair and silver eyes. She has an ethereal beauty.",
+              "attire": "Wears flowing robes adorned with moon motifs. Often carries a staff with a glowing crystal.",
+              "likes": "Magic, ancient lore, and helping others.",
+              "dislikes": "Dark magic, ignorance, and cruelty.",
+              "behavior": "Wise, compassionate, and always willing to lend her magical abilities to those in need.",
+              "weakness": "Can be overly trusting and naive.",
+              "strength": "Powerful magical abilities and vast knowledge of ancient lore."
+          }
+      }
+  ],
+  "espionage": [
+      {
+          "name": "Agent Jack Steel",
+          "description": {
+              "appearance": "Tall and muscular with short black hair and piercing brown eyes. He has a confident and commanding presence.",
+              "attire": "Wears a sleek, dark suit with a concealed weapon. Often carries a briefcase.",
+              "likes": "Solving crimes, catching criminals, and high-stakes missions.",
+              "dislikes": "Corruption, betrayal, and failure.",
+              "behavior": "Brave, intelligent, and always ready for action. He thrives under pressure.",
+              "weakness": "Can be overly confident and take unnecessary risks.",
+              "strength": "Exceptional combat skills and strategic thinking."
+          }
+      },
+      {
+          "name": "Detective Sarah Blake",
+          "description": {
+              "appearance": "Medium height with a average build, short blonde hair, and brown eyes. She has a sharp and focused look.",
+              "attire": "Wears a tailored suit with a concealed weapon. Often carries a notebook.",
+              "likes": "Solving mysteries, catching criminals, and justice.",
+              "dislikes": "Corruption, dishonesty, and inefficiency.",
+              "behavior": "Intelligent, determined, and resourceful. She is excellent at piecing together clues.",
+              "weakness": "Can be overly focused on work and neglect personal life.",
+              "strength": "Great at uncovering hidden clues and solving complex cases."
+          }
+      },
+      {
+          "name": "Ethan Chase",
+          "description": {
+              "appearance": "Tall and full-figured with short brown hair and dark eyes. He has a serious and determined look.",
+              "attire": "Wears a dark trench coat and a hat. Often carries a briefcase and a weapon.",
+              "likes": "Investigating crimes, uncovering secrets, and justice.",
+              "dislikes": "Corruption, betrayal, and loose ends.",
+              "behavior": "Observant, intelligent, and methodical. He is dedicated to solving mysteries.",
+              "weakness": "Can be overly focused on work and neglect personal relationships.",
+              "strength": "Exceptional at solving puzzles and uncovering hidden truths."
+          }
+      },
+      {
+          "name": "Lena Quinn",
+          "description": {
+              "appearance": "Slender and agile with long black hair and brown eyes. She has a mysterious and determined look.",
+              "attire": "Wears dark, practical clothing with a concealed weapon. Often carries a notebook.",
+              "likes": "Investigating mysteries, uncovering secrets, and justice.",
+              "dislikes": "Corruption, dishonesty, and loose ends.",
+              "behavior": "Intelligent, resourceful, and always ready for a challenge. She is dedicated to solving mysteries.",
+              "weakness": "Can be overly focused on work and neglect personal life.",
+              "strength": "Great at uncovering hidden clues and solving complex cases."
+          }
+      },
+      {
+          "name": "Alex Hunter",
+          "description": {
+              "appearance": "Tall and normal body with short black hair and piercing brown eyes. He has a confident and commanding presence.",
+              "attire": "Wears a sleek, dark suit with a concealed weapon. Often carries a briefcase.",
+              "likes": "Solving crimes, catching criminals, and high-stakes missions.",
+              "dislikes": "Corruption, betrayal, and failure.",
+              "behavior": "Brave, intelligent, and always ready for action. He thrives under pressure.",
+              "weakness": "Can be overly confident and take unnecessary risks.",
+              "strength": "Exceptional combat skills and strategic thinking."
+          }
+      },
+      {
+          "name": "Detective Emma Stone",
+          "description": {
+              "appearance": "Medium height with a average build, short blonde hair, and green eyes. She has a sharp and focused look.",
+              "attire": "Wears a tailored suit with a concealed weapon. Often carries a notebook.",
+              "likes": "Solving mysteries, catching criminals, and justice.",
+              "dislikes": "Corruption, dishonesty, and inefficiency.",
+              "behavior": "Intelligent, determined, and resourceful. She is excellent at piecing together clues.",
+              "weakness": "Can be overly focused on work and neglect personal life.",
+              "strength": "Great at uncovering hidden clues and solving complex cases."
+          }
+      },
+      {
+          "name": "Agent Max Blade",
+          "description": {
+              "appearance": "Tall and muscular with short black hair and piercing brown eyes. He has a confident and commanding presence.",
+              "attire": "Wears a sleek, dark suit with a concealed weapon. Often carries a briefcase.",
+              "likes": "Solving crimes, catching criminals, and high-stakes missions.",
+              "dislikes": "Corruption, betrayal, and failure.",
+              "behavior": "Brave, intelligent, and always ready for action. He thrives under pressure.",
+              "weakness": "Can be overly confident and take unnecessary risks.",
+              "strength": "Exceptional combat skills and strategic thinking."
+          }
+      },
+      {
+          "name": "Ethan Black",
+          "description": {
+              "appearance": "Tall and full-figured with short brown hair and dark eyes. He has a serious and determined look.",
+              "attire": "Wears a dark trench coat and a hat. Often carries a briefcase and a weapon.",
+              "likes": "Investigating crimes, uncovering secrets, and justice.",
+              "dislikes": "Corruption, betrayal, and loose ends.",
+              "behavior": "Observant, intelligent, and methodical. He is dedicated to solving mysteries.",
+              "weakness": "Can be overly focused on work and neglect personal relationships.",
+              "strength": "Exceptional at solving puzzles and uncovering hidden truths."
+          }
+      },
+      {
+          "name": "Lena White",
+          "description": {
+              "appearance": "Slender and agile with long black hair and brown eyes. She has a mysterious and determined look.",
+              "attire": "Wears dark, practical clothing with a concealed weapon. Often carries a notebook.",
+              "likes": "Investigating mysteries, uncovering secrets, and justice.",
+              "dislikes": "Corruption, dishonesty, and loose ends.",
+              "behavior": "Intelligent, resourceful, and always ready for a challenge. She is dedicated to solving mysteries.",
+              "weakness": "Can be overly focused on work and neglect personal life.",
+              "strength": "Great at uncovering hidden clues and solving complex cases."
+          }
+      },
+      {
+          "name": "Alex Stone",
+          "description": {
+              "appearance": "Tall and muscular with short black hair and piercing blue eyes. He has a confident and commanding presence.",
+              "attire": "Wears a sleek, dark suit with a concealed weapon. Often carries a briefcase.",
+              "likes": "Solving crimes, catching criminals, and high-stakes missions.",
+              "dislikes": "Corruption, betrayal, and failure.",
+              "behavior": "Brave, intelligent, and always ready for action. He thrives under pressure.",
+              "weakness": "Can be overly confident and take unnecessary risks.",
+              "strength": "Exceptional combat skills and strategic thinking."
+          }
+      }
+  ],
+  "post-apocalyptic": [
+      {
+          "name": "Raven Black",
+          "description": {
+              "appearance": "Tall and full-figured with short black hair and piercing green eyes. He has a determined and rebellious look.",
+              "attire": "Wears dark, rugged clothing suitable for survival. Often carries a weapon.",
+              "likes": "Freedom, justice, and fighting against oppression.",
+              "dislikes": "Tyranny, injustice, and conformity.",
+              "behavior": "Brave, resourceful, and always ready to stand up for what's right.",
+              "weakness": "Can be overly rebellious and take unnecessary risks.",
+              "strength": "Exceptional survival skills and leadership qualities."
+          }
+      },
+      {
+          "name": "Luna Gray",
+          "description": {
+              "appearance": "Slender and agile with long black hair and blue eyes. She has a mysterious and determined look.",
+              "attire": "Wears dark, practical clothing with a hood. Often carries a weapon.",
+              "likes": "Freedom, justice, and fighting against oppression.",
+              "dislikes": "Tyranny, injustice, and conformity.",
+              "behavior": "Intelligent, resourceful, and always ready for a challenge.",
+              "weakness": "Can be overly secretive and distrustful.",
+              "strength": "Great at stealth and infiltration."
+          }
+      },
+      {
+          "name": "Max Steel",
+          "description": {
+              "appearance": "Tall and full-figured with short black hair and piercing blue eyes. He has a determined and rebellious look.",
+              "attire": "Wears dark, rugged clothing suitable for survival. Often carries a weapon.",
+              "likes": "Freedom, justice, and fighting against oppression.",
+              "dislikes": "Tyranny, injustice, and conformity.",
+              "behavior": "Brave, resourceful, and always ready to stand up for what's right.",
+              "weakness": "Can be overly rebellious and take unnecessary risks.",
+              "strength": "Exceptional survival skills and leadership qualities."
+          }
+      },
+      {
+          "name": "Ella Night",
+          "description": {
+              "appearance": "Plus-Sized with long black hair and blue eyes. She has a mysterious and determined look.",
+              "attire": "Wears dark, practical clothing with a hood. Often carries a weapon.",
+              "likes": "Freedom, justice, and fighting against oppression.",
+              "dislikes": "Tyranny, injustice, and conformity.",
+              "behavior": "Intelligent, resourceful, and always ready for a challenge.",
+              "weakness": "Can be overly secretive and distrustful.",
+              "strength": "Great at stealth and infiltration."
+          }
+      },
+      {
+          "name": "Leo Dark",
+          "description": {
+              "appearance": "Tall and full-figured with short black hair and piercing green eyes. He has a determined and rebellious look.",
+              "attire": "Wears dark, rugged clothing suitable for survival. Often carries a weapon.",
+              "likes": "Freedom, justice, and fighting against oppression.",
+              "dislikes": "Tyranny, injustice, and conformity.",
+              "behavior": "Brave, resourceful, and always ready to stand up for what's right.",
+              "weakness": "Can be overly rebellious and take unnecessary risks.",
+              "strength": "Exceptional survival skills and leadership qualities."
+          }
+      },
+      {
+          "name": "Lily Ash",
+          "description": {
+              "appearance": "Slender and agile with long black hair and blue eyes. She has a mysterious and determined look.",
+              "attire": "Wears dark, practical clothing with a hood. Often carries a weapon.",
+              "likes": "Freedom, justice, and fighting against oppression.",
+              "dislikes": "Tyranny, injustice, and conformity.",
+              "behavior": "Intelligent, resourceful, and always ready for a challenge.",
+              "weakness": "Can be overly secretive and distrustful.",
+              "strength": "Great at stealth and infiltration."
+          }
+      },
+      {
+          "name": "Milo Shadow",
+          "description": {
+              "appearance": "Tall and full-figured with short black hair and piercing green eyes. He has a determined and rebellious look.",
+              "attire": "Wears dark, rugged clothing suitable for survival. Often carries a weapon.",
+              "likes": "Freedom, justice, and fighting against oppression.",
+              "dislikes": "Tyranny, injustice, and conformity.",
+              "behavior": "Brave, resourceful, and always ready to stand up for what's right.",
+              "weakness": "Can be overly rebellious and take unnecessary risks.",
+              "strength": "Exceptional survival skills and leadership qualities."
+          }
+      },
+      {
+          "name": "Ella Flame",
+          "description": {
+              "appearance": "Slender and agile with long black hair and blue eyes. She has a mysterious and determined look.",
+              "attire": "Wears dark, practical clothing with a hood. Often carries a weapon.",
+              "likes": "Freedom, justice, and fighting against oppression.",
+              "dislikes": "Tyranny, injustice, and conformity.",
+              "behavior": "Intelligent, resourceful, and always ready for a challenge.",
+              "weakness": "Can be overly secretive and distrustful.",
+              "strength": "Great at stealth and infiltration."
+          }
+      },
+      {
+          "name": "Max Rebel",
+          "description": {
+              "appearance": "Tall and muscular with short black hair and piercing blue eyes. He has a determined and rebellious look.",
+              "attire": "Wears dark, rugged clothing suitable for survival. Often carries a weapon.",
+              "likes": "Freedom, justice, and fighting against oppression.",
+              "dislikes": "Tyranny, injustice, and conformity.",
+              "behavior": "Brave, resourceful, and always ready to stand up for what's right.",
+              "weakness": "Can be overly rebellious and take unnecessary risks.",
+              "strength": "Exceptional survival skills and leadership qualities."
+          }
+      },
+      {
+          "name": "Luna Star",
+          "description": {
+              "appearance": "Slender and agile with long black hair and blue eyes. She has a mysterious and determined look.",
+              "attire": "Wears dark, practical clothing with a hood. Often carries a weapon.",
+              "likes": "Freedom, justice, and fighting against oppression.",
+              "dislikes": "Tyranny, injustice, and conformity.",
+              "behavior": "Intelligent, resourceful, and always ready for a challenge.",
+              "weakness": "Can be overly secretive and distrustful.",
+              "strength": "Great at stealth and infiltration."
+          }
+      }
+  ],
+  "psychological drama": [
+      {
+          "name": "Emma Green",
+          "description": {
+              "appearance": "Medium height with a average build, long blonde hair, and dark eyes. She has a sharp look.",
+              "attire": "Wears a tailored suit, dress shoes, and often carries a notebook and pen.",
+              "likes": "Investigating crimes, reading crime novels, and justice.",
+              "dislikes": "Dishonesty, corruption, and inefficiency.",
+              "behavior": "Intelligent, determined, and resourceful. She is excellent at piecing together clues.",
+              "weakness": "Can be overly focused on work and neglect personal life.",
+              "strength": "Great at uncovering hidden clues and solving complex cases."
+          }
+      },
+      {
+          "name": "Dr. Amelia Clark",
+          "description": {
+              "appearance": "Medium height with a full-figured build, short brown hair, and hazel eyes. She has a serious and focused look.",
+              "attire": "Wears a white lab coat and glasses. Often carries a notebook.",
+              "likes": "Psychology, helping others, and solving puzzles.",
+              "dislikes": "Ignorance, apathy, and dishonesty.",
+              "behavior": "Intelligent, compassionate, and always seeking to understand the human mind.",
+              "weakness": "Can be overly analytical and detached.",
+              "strength": "Exceptional at understanding and helping people with psychological issues."
+          }
+      },
+      {
+          "name": "Nathaniel Black",
+          "description": {
+              "appearance": "Tall and full-figured with short black hair and piercing blue eyes. He has a mysterious and intense presence.",
+              "attire": "Wears dark, stylish clothing and often carries a notebook.",
+              "likes": "Psychology, mysteries, and uncovering the truth.",
+              "dislikes": "Dishonesty, superficiality, and complacency.",
+              "behavior": "Intelligent, introspective, and deeply passionate about understanding the human psyche.",
+              "weakness": "Can be overly secretive and struggle with personal connections.",
+              "strength": "Great at uncovering hidden truths and understanding complex psychological issues."
+          }
+      },
+      {
+          "name": "Sophia Brown",
+          "description": {
+              "appearance": "Medium height with a average build, long black hair, and brown eyes. She has a focused and determined look.",
+              "attire": "Wears casual, professional clothing, often with a touch of elegance. Always carries a notebook.",
+              "likes": "Psychology, helping others, and solving puzzles.",
+              "dislikes": "Ignorance, apathy, and dishonesty.",
+              "behavior": "Intelligent, compassionate, and always seeking to understand the human mind.",
+              "weakness": "Can be overly analytical and detached.",
+              "strength": "Exceptional at understanding and helping people with psychological issues."
+          }
+      },
+      {
+          "name": "Liam Gray",
+          "description": {
+              "appearance": "Tall and full-figured with short brown hair and dark eyes. He has a serious and introspective look.",
+              "attire": "Wears casual clothing, often with a hoodie and jeans. Always carries a notebook.",
+              "likes": "Psychology, reading, and playing guitar.",
+              "dislikes": "Crowds, noise, and superficial conversations.",
+              "behavior": "Quiet, thoughtful, and deeply passionate about understanding the human mind.",
+              "weakness": "Can be overly introverted and struggle with social interactions.",
+              "strength": "Great at understanding and expressing deep emotions."
+          }
+      },
+      {
+          "name": "Ella Harris",
+          "description": {
+              "appearance": "Petite with long brown hair and hazel eyes. She has a cheerful and optimistic demeanor.",
+              "attire": "Wears casual, colorful clothing, often with a touch of bohemian style. Always has a journal.",
+              "likes": "Psychology, helping others, and exploring nature.",
+              "dislikes": "Negativity, dishonesty, and being confined indoors.",
+              "behavior": "Creative, adventurous, and always sees the bright side of things.",
+              "weakness": "Can be overly idealistic and sensitive.",
+              "strength": "Great at understanding and helping people with psychological issues."
+          }
+      },
+      {
+          "name": "James Miller",
+          "description": {
+              "appearance": "Tall and full-figured with short black hair and dark eyes. He has a serious and introspective look.",
+              "attire": "Wears casual clothing, often with a hoodie and jeans. Always carries a notebook.",
+              "likes": "Psychology, reading, and playing guitar.",
+              "dislikes": "Crowds, noise, and superficial conversations.",
+              "behavior": "Quiet, thoughtful, and deeply passionate about understanding the human mind.",
+              "weakness": "Can be overly introverted and struggle with social interactions.",
+              "strength": "Great at understanding and expressing deep emotions."
+          }
+      },
+      {
+          "name": "Mia Parker",
+          "description": {
+              "appearance": "Petite with long blonde hair and green eyes. She has a cheerful and optimistic demeanor.",
+              "attire": "Wears casual, colorful clothing, often with a touch of bohemian style. Always has a journal.",
+              "likes": "Psychology, helping others, and exploring nature.",
+              "dislikes": "Negativity, dishonesty, and being confined indoors.",
+              "behavior": "Creative, adventurous, and always sees the bright side of things.",
+              "weakness": "Can be overly idealistic and sensitive.",
+              "strength": "Great at understanding and helping people with psychological issues."
+          }
+      },
+      {
+          "name": "Ethan Brooks",
+          "description": {
+              "appearance": "Medium height with a average build, short brown hair, and blue eyes. He has a youthful and determined look.",
+              "attire": "Wears casual clothing, often with a t-shirt and jeans. Always carries a skateboard.",
+              "likes": "Psychology, video games, and hanging out with friends.",
+              "dislikes": "Rules, routine, and being told what to do.",
+              "behavior": "Energetic, curious, and always ready for an adventure.",
+              "weakness": "Can be rebellious and struggle with authority.",
+              "strength": "Great at understanding and expressing deep emotions."
+          }
+      },
+      {
+          "name": "Sophia Reed",
+          "description": {
+              "appearance": "Medium height with a average build, long black hair, and green eyes. She has a focused and determined look.",
+              "attire": "Wears casual clothing, often with a t-shirt and jeans. Always carries a notebook.",
+              "likes": "Psychology, reading, and learning new things.",
+              "dislikes": "Ignorance, laziness, and distractions.",
+              "behavior": "Intelligent, driven, and always eager to learn.",
+              "weakness": "Can be overly focused on her goals and neglect other aspects of life.",
+              "strength": "Great at understanding and helping people with psychological issues."
+          }
+      }
+  ],
+  "sports": [
+      {
+          "name": "Alex Turner",
+          "description": {
+              "appearance": "Tall and muscular with short blonde hair and blue eyes. He has a confident and athletic look.",
+              "attire": "Wears athletic gear, often with a jersey and sneakers. Always carries a basketball.",
+              "likes": "Playing basketball, working out, and teamwork.",
+              "dislikes": "Laziness, dishonesty, and losing.",
+              "behavior": "Energetic, driven, and always striving to improve his skills.",
+              "weakness": "Can be overly competitive and hard on himself.",
+              "strength": "Exceptional athletic skills and teamwork."
+          }
+      },
+      {
+          "name": "Mia Lopez",
+          "description": {
+              "appearance": "Medium height with a average build, long black hair, and brown eyes. She has a determined and focused look.",
+              "attire": "Wears athletic gear, often with a soccer uniform. Always carries a soccer ball.",
+              "likes": "Playing soccer, working out, and teamwork.",
+              "dislikes": "Laziness, dishonesty, and losing.",
+              "behavior": "Energetic, driven, and always striving to improve her skills.",
+              "weakness": "Can be overly competitive and hard on herself.",
+              "strength": "Exceptional athletic skills and teamwork."
+          }
+      },
+      {
+          "name": "Jake Williams",
+          "description": {
+              "appearance": "Tall and muscular with short black hair and blue eyes. He has a confident and athletic look.",
+              "attire": "Wears athletic gear, often with a football uniform. Always carries a football.",
+              "likes": "Playing football, working out, and teamwork.",
+              "dislikes": "Laziness, dishonesty, and losing.",
+              "behavior": "Energetic, driven, and always striving to improve his skills.",
+              "weakness": "Can be overly competitive and hard on himself.",
+              "strength": "Exceptional athletic skills and teamwork."
+          }
+      },
+      {
+          "name": "Emma Johnson",
+          "description": {
+              "appearance": "Medium height with a average build, long blonde hair, and green eyes. She has a confident and athletic look.",
+              "attire": "Wears athletic gear, often with a tennis uniform. Always carries a tennis racket.",
+              "likes": "Playing tennis, working out, and teamwork.",
+              "dislikes": "Laziness, dishonesty, and losing.",
+              "behavior": "Energetic, driven, and always striving to improve her skills.",
+              "weakness": "Can be overly competitive and hard on herself.",
+              "strength": "Exceptional athletic skills and teamwork."
+          }
+      },
+      {
+          "name": "Liam Davis",
+          "description": {
+              "appearance": "Tall and muscular with short brown hair and blue eyes. He has a confident and athletic look.",
+              "attire": "Wears athletic gear, often with a swimming uniform. Always carries a swim cap and goggles.",
+              "likes": "Swimming, working out, and teamwork.",
+              "dislikes": "Laziness, dishonesty, and losing.",
+              "behavior": "Energetic, driven, and always striving to improve his skills.",
+              "weakness": "Can be overly competitive and hard on himself.",
+              "strength": "Exceptional athletic skills and teamwork."
+          }
+      },
+      {
+          "name": "Sophia Brown",
+          "description": {
+              "appearance": "Medium height with a average build, long black hair, and green eyes. She has a confident and athletic look.",
+              "attire": "Wears athletic gear, often with a volleyball uniform. Always carries a volleyball.",
+              "likes": "Playing volleyball, working out, and teamwork.",
+              "dislikes": "Laziness, dishonesty, and losing.",
+              "behavior": "Energetic, driven, and always striving to improve her skills.",
+              "weakness": "Can be overly competitive and hard on herself.",
+              "strength": "Exceptional athletic skills and teamwork."
+          }
+      },
+      {
+          "name": "Ethan Brooks",
+          "description": {
+              "appearance": "Tall and muscular with short blonde hair and blue eyes. He has a confident and athletic look.",
+              "attire": "Wears athletic gear, often with a track uniform. Always carries a stopwatch.",
+              "likes": "Running, working out, and teamwork.",
+              "dislikes": "Laziness, dishonesty, and losing.",
+              "behavior": "Energetic, driven, and always striving to improve his skills.",
+              "weakness": "Can be overly competitive and hard on himself.",
+              "strength": "Exceptional athletic skills and teamwork."
+          }
+      },
+      {
+          "name": "Mia Thompson",
+          "description": {
+              "appearance": "Medium height with a average build, long black hair, and brown eyes. She has a confident and athletic look.",
+              "attire": "Wears athletic gear, often with a gymnastics uniform. Always carries a gym bag.",
+              "likes": "Gymnastics, working out, and teamwork.",
+              "dislikes": "Laziness, dishonesty, and losing.",
+              "behavior": "Energetic, driven, and always striving to improve her skills.",
+              "weakness": "Can be overly competitive and hard on herself.",
+              "strength": "Exceptional athletic skills and teamwork."
+          }
+      },
+      {
+          "name": "James White",
+          "description": {
+              "appearance": "Tall and muscular with short black hair and blue eyes. He has a confident and athletic look.",
+              "attire": "Wears athletic gear, often with a wrestling uniform. Always carries a gym bag.",
+              "likes": "Wrestling, working out, and teamwork.",
+              "dislikes": "Laziness, dishonesty, and losing.",
+              "behavior": "Energetic, driven, and always striving to improve his skills.",
+              "weakness": "Can be overly competitive and hard on himself.",
+              "strength": "Exceptional athletic skills and teamwork."
+          }
+      },
+      {
+          "name": "Ella Harris",
+          "description": {
+              "appearance": "Medium height with a average build, long brown hair, and hazel eyes. She has a cheerful and optimistic demeanor.",
+              "attire": "Wears athletic gear, often with a cheerleading uniform. Always carries a cheer bag.",
+              "likes": "Cheerleading, working out, and teamwork.",
+              "dislikes": "Laziness, dishonesty, and losing.",
+              "behavior": "Energetic, driven, and always striving to improve her skills.",
+              "weakness": "Can be overly competitive and hard on herself.",
+              "strength": "Exceptional athletic skills and teamwork."
+          }
+      }
+  ],
+  "legal drama": [
+      {
+          "name": "Alex Turner",
+          "description": {
+              "appearance": "Medium height and average build with short brown hair and blue eyes. He has a serious and determined look.",
+              "attire": "Wears a tailored suit and dress shoes. Often carries a briefcase.",
+              "likes": "Solving cases, seeking justice, and courtroom battles.",
+              "dislikes": "Corruption, dishonesty, and losing.",
+              "behavior": "Intelligent, driven, and always striving to win his cases.",
+              "weakness": "Can be overly focused on work and neglect personal life.",
+              "strength": "Great at presenting arguments and uncovering the truth."
+          }
+      },
+      {
+          "name": "Mia Lopez",
+          "description": {
+              "appearance": "Medium height with a average build, long black hair, and brown eyes. She has a serious and determined look.",
+              "attire": "Wears a tailored suit and dress shoes. Often carries a briefcase.",
+              "likes": "Solving cases, seeking justice, and courtroom battles.",
+              "dislikes": "Corruption, dishonesty, and losing.",
+              "behavior": "Intelligent, driven, and always striving to win her cases.",
+              "weakness": "Can be overly focused on work and neglect personal life.",
+              "strength": "Great at presenting arguments and uncovering the truth."
+          }
+      },
+      {
+          "name": "Jake Williams",
+          "description": {
+              "appearance": "Medium height and average build with short black hair and blue eyes. He has a serious and determined look.",
+              "attire": "Wears a tailored suit and dress shoes. Often carries a briefcase.",
+              "likes": "Solving cases, seeking justice, and courtroom battles.",
+              "dislikes": "Corruption, dishonesty, and losing.",
+              "behavior": "Intelligent, driven, and always striving to win his cases.",
+              "weakness": "Can be overly focused on work and neglect personal life.",
+              "strength": "Great at presenting arguments and uncovering the truth."
+          }
+      },
+      {
+          "name": "Emma Johnson",
+          "description": {
+              "appearance": "Medium height with a average build, long blonde hair, and green eyes. She has a serious and determined look.",
+              "attire": "Wears a tailored suit and dress shoes. Often carries a briefcase.",
+              "likes": "Solving cases, seeking justice, and courtroom battles.",
+              "dislikes": "Corruption, dishonesty, and losing.",
+              "behavior": "Intelligent, driven, and always striving to win her cases.",
+              "weakness": "Can be overly focused on work and neglect personal life.",
+              "strength": "Great at presenting arguments and uncovering the truth."
+          }
+      },
+      {
+          "name": "Liam Davis",
+          "description": {
+              "appearance": "Medium height and average build with short brown hair and blue eyes. He has a serious and determined look.",
+              "attire": "Wears a tailored suit and dress shoes. Often carries a briefcase.",
+              "likes": "Solving cases, seeking justice, and courtroom battles.",
+              "dislikes": "Corruption, dishonesty, and losing.",
+              "behavior": "Intelligent, driven, and always striving to win his cases.",
+              "weakness": "Can be overly focused on work and neglect personal life.",
+              "strength": "Great at presenting arguments and uncovering the truth."
+          }
+      },
+      {
+          "name": "Sophia Brown",
+          "description": {
+              "appearance": "Medium height with a average build, long black hair, and green eyes. She has a serious and determined look.",
+              "attire": "Wears a tailored suit and dress shoes. Often carries a briefcase.",
+              "likes": "Solving cases, seeking justice, and courtroom battles.",
+              "dislikes": "Corruption, dishonesty, and losing.",
+              "behavior": "Intelligent, driven, and always striving to win her cases.",
+              "weakness": "Can be overly focused on work and neglect personal life.",
+              "strength": "Great at presenting arguments and uncovering the truth."
+          }
+      },
+      {
+          "name": "Ethan Brooks",
+          "description": {
+              "appearance": "Medium height and average build with short blonde hair and blue eyes. He has a serious and determined look.",
+              "attire": "Wears a tailored suit and dress shoes. Often carries a briefcase.",
+              "likes": "Solving cases, seeking justice, and courtroom battles.",
+              "dislikes": "Corruption, dishonesty, and losing.",
+              "behavior": "Intelligent, driven, and always striving to win his cases.",
+              "weakness": "Can be overly focused on work and neglect personal life.",
+              "strength": "Great at presenting arguments and uncovering the truth."
+          }
+      },
+      {
+          "name": "Mia Thompson",
+          "description": {
+              "appearance": "Medium height with a average build, long black hair, and brown eyes. She has a serious and determined look.",
+              "attire": "Wears a tailored suit and dress shoes. Often carries a briefcase.",
+              "likes": "Solving cases, seeking justice, and courtroom battles.",
+              "dislikes": "Corruption, dishonesty, and losing.",
+              "behavior": "Intelligent, driven, and always striving to win her cases.",
+              "weakness": "Can be overly focused on work and neglect personal life.",
+              "strength": "Great at presenting arguments and uncovering the truth."
+          }
+      },
+      {
+          "name": "James White",
+          "description": {
+              "appearance": "Medium height and average build with short black hair and blue eyes. He has a serious and determined look.",
+              "attire": "Wears a tailored suit and dress shoes. Often carries a briefcase.",
+              "likes": "Solving cases, seeking justice, and courtroom battles.",
+              "dislikes": "Corruption, dishonesty, and losing.",
+              "behavior": "Intelligent, driven, and always striving to win his cases.",
+              "weakness": "Can be overly focused on work and neglect personal life.",
+              "strength": "Great at presenting arguments and uncovering the truth."
+          }
+      },
+      {
+          "name": "Ella Harris",
+          "description": {
+              "appearance": "Medium height with a average build, long brown hair, and hazel eyes. She has a cheerful and optimistic demeanor.",
+              "attire": "Wears a tailored suit and dress shoes. Often carries a briefcase.",
+              "likes": "Solving cases, seeking justice, and courtroom battles.",
+              "dislikes": "Corruption, dishonesty, and losing.",
+              "behavior": "Intelligent, driven, and always striving to win her cases.",
+              "weakness": "Can be overly focused on work and neglect personal life.",
+              "strength": "Great at presenting arguments and uncovering the truth."
+          }
+      }
+  ]
+}
